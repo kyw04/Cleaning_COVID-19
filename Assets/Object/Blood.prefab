@@ -94,7 +94,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5520255759940616042}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -112,12 +112,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 396d12b01c6a3814e8465affca2330b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 100
-  hp: 100
+  maxHp: 2
+  hp: 2
   pain: 0
   speed: 2
   damage: 20
   attack_speed: 0.5
+  score: 0
 --- !u!114 &-1348053025352415910
 MonoBehaviour:
   m_ObjectHideFlags: 0

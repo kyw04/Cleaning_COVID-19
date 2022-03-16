@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
         transform.position = transform.TransformDirection(transform.position + dir);
 
 
-        if (Input.GetMouseButton(0) && !reload)
+        if (Input.GetKey(KeyCode.Space) && !reload)
         {
             StartCoroutine(SummonBullet());
         }
@@ -44,8 +44,10 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Blood")
-        {
             StartCoroutine(Invincible());
+
+        if (collision.gameObject.tag == "Monster")
+        {
             collision.gameObject.layer = 8;
             collision.GetComponent<Ability>().hp = 0;
             ability.hp -= collision.GetComponent<Ability>().damage / 2;

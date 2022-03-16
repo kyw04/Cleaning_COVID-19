@@ -23,6 +23,7 @@ public class Coming : MonoBehaviour
         {
             gameObject.layer = 8;
             die = true;
+            Score.instance.AddScore(ability.score);
             GetComponentInChildren<ParticleSystem>().Play();
             GetComponent<MeshRenderer>().material.color = new Color32(95, 95, 95, 200);
             Destroy(this.gameObject, 1);

@@ -20,12 +20,16 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "Monster")
+        if (collision.gameObject.tag != "Item")
         {
             GetComponentInChildren<ParticleSystem>().Play();
             gameObject.layer = 8;
-            gameObject.GetComponent<MeshRenderer>().material.color = new Color32(255, 255, 255, 0);
+            gameObject.GetComponent<MeshRenderer>().material.color = new Color32(0, 0, 0, 0);
             Destroy(this.gameObject, 1);
+        }
+
+        if (collision.gameObject.tag == "Monster")
+        {
             collision.GetComponent<Ability>().hp -= player_ability.damage;
         }
     }

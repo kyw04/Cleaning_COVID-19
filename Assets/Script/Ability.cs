@@ -10,10 +10,32 @@ public class Ability : MonoBehaviour
     public float speed = 2f;
     public float damage = 1;
     public float attack_speed = 0.5f;
+    public int score = 0;
+    public int maxWeaponLevel = 5;
+    public int WeaponLevel = 0;
+    private int Weapon = 0;
 
     private void Update()
     {
         if (maxHp < hp)
             hp = maxHp;
+        if (0 > pain)
+            pain = 0;
+
+        if (WeaponLevel > maxWeaponLevel)
+            WeaponLevel = maxWeaponLevel;
+        if (Weapon != WeaponLevel)
+        {
+            for (; Weapon < WeaponLevel; Weapon++)
+            {
+                damage *= 2f;
+                attack_speed /= 1.25f;
+            }
+            for (; Weapon > WeaponLevel; Weapon--)
+            {
+                damage /= 2f;
+                attack_speed *= 1.25f;
+            }
+        }
     }
 }

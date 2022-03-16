@@ -110,12 +110,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 396d12b01c6a3814e8465affca2330b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 100
+  maxHp: 3
   hp: 3
   pain: 100
   speed: 0.5
   damage: 10
   attack_speed: 3
+  score: 5
+  maxWeaponLevel: 5
+  WeaponLevel: 0
 --- !u!114 &5185025755737729209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,8 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   random: 1
-  rand_min: 0.5
-  rand_max: 1
+  rand_min: 1
+  rand_max: 1.5
 --- !u!1 &5185025757186162346
 GameObject:
   m_ObjectHideFlags: 0

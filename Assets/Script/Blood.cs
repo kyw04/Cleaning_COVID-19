@@ -21,12 +21,32 @@ public class Blood : MonoBehaviour
             transform.Rotate(0, rotation_speed * Time.deltaTime, 0);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Bullet")
+        if (other.gameObject.tag == "Player")
         {
-            player_ability.pain += ability.damage;
             ability.hp = 0;
         }
+
+        if (other.gameObject.tag == "Bullet")
+        {
+            ability.hp--;
+            ability.speed /= 2;
+            GetComponent<MeshRenderer>().material.color -= new Color32(50, 0, 0 , 0);
+            if (ability.hp > 0)
+                StartCoroutine(invincible());
+        }
+
+        if (ability.hp <= 0)
+        {
+            player_ability.pain += ability.damage;
+        }
+    }
+
+    IEnumerator invincible()
+    {
+        gameObject.layer = 9;
+        yield return new WaitForSeconds(0.5f);
+        gameObject.layer = 10;
     }
 }
