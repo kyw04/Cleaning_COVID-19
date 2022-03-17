@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Items : MonoBehaviour
 {
-    public enum items{ WeaponUp, Invincible, HpRecovery, PainRecovery };
+    public enum items{ WeaponUp, Shield, HpRecovery, PainRecovery };
     public items type;
     public float rotation_speed;
     private GameObject player;
@@ -30,13 +30,10 @@ public class Items : MonoBehaviour
             {
                 other_ability.WeaponLevel++;
             }
-            if (type == items.Invincible)
+            if (type == items.Shield)
             {
-                if (other.gameObject.layer == 9)
-                {
-                    StopCoroutine("Invincibility");
-                }
-                StartCoroutine("Invincibility");
+                Shield.player_shield.StopCoroutine("shield");
+                Shield.player_shield.StartCoroutine("shield");
             }
             if (type == items.HpRecovery)
             {
@@ -50,13 +47,5 @@ public class Items : MonoBehaviour
             Destroy(this.gameObject, 3.5f);
             GetComponent<Renderer>().enabled = false;
         }
-    }
-
-    IEnumerator Invincibility()
-    {
-        player.gameObject.layer = 9;
-        player.gameObject.GetComponentInChildren<ParticleSystem>().Play();
-        yield return new WaitForSeconds(3f);
-        player.gameObject.layer = 3;
     }
 }

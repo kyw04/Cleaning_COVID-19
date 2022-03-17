@@ -600,7 +600,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 1
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -9739,6 +9739,7 @@ GameObject:
   - component: {fileID: 6803609500005014707}
   - component: {fileID: 6803609499791222616}
   - component: {fileID: 6803609500005014706}
+  - component: {fileID: -4903384998171149618}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -9874,4 +9875,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 3239043007832546645, guid: 29e5f5c7abf8ac24ba9c07904ca8cbdb, type: 3}
-  gameOver: {fileID: 4177644299721041463, guid: 02298facd0772034bb38ace9a7f933a8, type: 3}
+  gameOver: {fileID: 0}
+--- !u!114 &-4903384998171149618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6803609500005014709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d60da446ea3beb4b97b1ebeb55b851e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

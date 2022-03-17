@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
             ability.hp -= collision.GetComponent<Ability>().damage / 2;
         }
         if (collision.tag == "Item")
-            if (collision.GetComponent<Items>().type == Items.items.Invincible)
+            if (collision.GetComponent<Items>().type == Items.items.Shield)
             {
                 StopCoroutine("Invincible");
                 GetComponent<MeshRenderer>().material.color = new Color32(255, 255, 255, 255);
