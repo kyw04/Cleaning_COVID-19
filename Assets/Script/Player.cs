@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Blood")
-            StartCoroutine(Invincible());
+            StartCoroutine("Invincible");
 
         if (collision.gameObject.tag == "Monster")
         {
@@ -52,6 +52,12 @@ public class Player : MonoBehaviour
             collision.GetComponent<Ability>().hp = 0;
             ability.hp -= collision.GetComponent<Ability>().damage / 2;
         }
+        if (collision.tag == "Item")
+            if (collision.GetComponent<Items>().type == Items.items.Invincible)
+            {
+                StopCoroutine("Invincible");
+                GetComponent<MeshRenderer>().material.color = new Color32(255, 255, 255, 255);
+            }
     }
 
     public IEnumerator Invincible()

@@ -7,10 +7,11 @@ public class Items : MonoBehaviour
     public enum items{ WeaponUp, Invincible, HpRecovery, PainRecovery };
     public items type;
     public float rotation_speed;
+    private GameObject player;
 
     void Start()
     {
-        
+        player = GameObject.Find("Player");
     }
 
     void Update()
@@ -20,9 +21,10 @@ public class Items : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag != "Bullet")
+        if (other.gameObject.tag == "Player")
         {
             Ability other_ability = other.GetComponent<Ability>();
+            GetComponent<Ability>().hp = 0;
 
             if (type == items.WeaponUp && other_ability.maxWeaponLevel > other_ability.WeaponLevel)
             {
@@ -30,7 +32,11 @@ public class Items : MonoBehaviour
             }
             if (type == items.Invincible)
             {
-                StartCoroutine(Invincibility(other));
+                if (other.gameObject.layer == 9)
+                {
+                    StopCoroutine("Invincibility");
+                }
+                StartCoroutine("Invincibility");
             }
             if (type == items.HpRecovery)
             {
@@ -40,15 +46,17 @@ public class Items : MonoBehaviour
             {
                 other_ability.pain -= 30;
             }
-            Destroy(this.gameObject); // ¹ö±×
+
+            Destroy(this.gameObject, 3.5f);
+            GetComponent<Renderer>().enabled = false;
         }
     }
 
-    IEnumerator Invincibility(Collider collider)
+    IEnumerator Invincibility()
     {
-        collider.gameObject.layer = 9;
-        collider.gameObject.GetComponentInChildren<ParticleSystem>().Play();
+        player.gameObject.layer = 9;
+        player.gameObject.GetComponentInChildren<ParticleSystem>().Play();
         yield return new WaitForSeconds(3f);
-        collider.gameObject.layer = 3;
+        player.gameObject.layer = 3;
     }
 }

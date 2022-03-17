@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Blood
   - Item
+  - Leukocyte
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Invincible
   - Blood
   - Item
-  - 
+  - Leukocyte
   - 
   - 
   - 
