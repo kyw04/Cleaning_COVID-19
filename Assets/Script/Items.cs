@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Items : MonoBehaviour
 {
-    public enum items{ WeaponUp, Shield, HpRecovery, PainRecovery };
+    public enum items{ WeaponUp, Shield, HpRecovery, PainRecovery, Boom, Unit };
     public items type;
     public float rotation_speed;
     private GameObject player;
@@ -42,6 +42,14 @@ public class Items : MonoBehaviour
             if (type == items.PainRecovery)
             {
                 other_ability.pain -= 30;
+            }
+            if (type == items.Boom)
+            {
+
+            }
+            if (type == items.Unit)
+            {
+
             }
 
             Destroy(this.gameObject, 3.5f);

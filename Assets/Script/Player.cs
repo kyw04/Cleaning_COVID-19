@@ -6,14 +6,12 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public GameObject bullet;
-    public GameObject gameOver;
     private Ability ability;
     private float Xmove;
     private float Ymove;
     private bool reload;
     void Start()
     {
-        gameOver.SetActive(false);
         Time.timeScale = 1;
         ability = GetComponent<Ability>();
         reload = false;
@@ -23,10 +21,7 @@ public class Player : MonoBehaviour
     {
         if (ability.hp <= 0 || ability.pain >= 100)
         {
-            Time.timeScale = 0;
-            gameOver.gameObject.SetActive(true);
-            if (Input.anyKeyDown)
-                SceneManager.LoadScene(1);
+            Time.timeScale = 0.25f;
         }
 
         Xmove = Input.GetAxis("Horizontal");
@@ -56,23 +51,23 @@ public class Player : MonoBehaviour
             if (collision.GetComponent<Items>().type == Items.items.Shield)
             {
                 StopCoroutine("Invincible");
-                GetComponent<MeshRenderer>().material.color = new Color32(255, 255, 255, 255);
+                GetComponent<MeshRenderer>().material.color = new Color32(0, 0, 0, 255);
             }
     }
 
     public IEnumerator Invincible()
     {
         gameObject.layer = 9;
-        GetComponent<MeshRenderer>().material.color -= new Color32(0, 0, 0, 150);
+        GetComponent<MeshRenderer>().material.color -= new Color32(0, 0, 0, 200);
         for (int i = 0; i < 3; i++)
         {
             yield return new WaitForSeconds(0.25f);
-            GetComponent<MeshRenderer>().material.color += new Color32(0, 0, 0, 150);
+            GetComponent<MeshRenderer>().material.color += new Color32(0, 0, 0, 200);
             yield return new WaitForSeconds(0.25f);
-            GetComponent<MeshRenderer>().material.color -= new Color32(0, 0, 0, 150);
+            GetComponent<MeshRenderer>().material.color -= new Color32(0, 0, 0, 200);
         }
         gameObject.layer = 3;
-        GetComponent<MeshRenderer>().material.color = new Color32(255, 255, 255, 255);
+        GetComponent<MeshRenderer>().material.color = new Color32(0, 0, 0, 255);
     }
     IEnumerator SummonBullet()
     {
