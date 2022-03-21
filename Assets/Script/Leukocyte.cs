@@ -17,7 +17,7 @@ public class Leukocyte : MonoBehaviour
        {
             Instantiate(item[index], transform.position, transform.rotation);
             GetComponent<Renderer>().enabled = false;
-            Destroy(this.gameObject, 0.2f);
+            Destroy(this.gameObject);
        }
     }
 }

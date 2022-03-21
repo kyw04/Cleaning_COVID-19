@@ -8,9 +8,11 @@ public class Blood : MonoBehaviour
     private Ability player_ability;
     private Ability ability;
     public float rotation_speed;
+    private float randRotation;
 
     private void Start()
     {
+        randRotation = Random.Range(-2, 2);
         player = GameObject.Find("Player");
         player_ability = player.GetComponent<Ability>();
         ability = GetComponent<Ability>();
@@ -18,7 +20,7 @@ public class Blood : MonoBehaviour
     void Update()
     {
         if (ability.hp > 0)
-            transform.Rotate(0, rotation_speed * Time.deltaTime, 0);
+            transform.Rotate(new Vector3(1, 1, 1) * randRotation * rotation_speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,7 +34,7 @@ public class Blood : MonoBehaviour
         {
             ability.hp--;
             ability.speed /= 2;
-            GetComponent<MeshRenderer>().material.color -= new Color32(50, 0, 0 , 0);
+            GetComponent<MeshRenderer>().material.color -= new Color32(70, 0, 0 , 0);
             if (ability.hp > 0)
                 StartCoroutine(invincible());
         }

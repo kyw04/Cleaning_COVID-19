@@ -7,11 +7,10 @@ public class Items : MonoBehaviour
     public enum items{ WeaponUp, Shield, HpRecovery, PainRecovery, Boom, Unit };
     public items type;
     public float rotation_speed;
-    private GameObject player;
 
     void Start()
     {
-        player = GameObject.Find("Player");
+
     }
 
     void Update()
@@ -49,11 +48,12 @@ public class Items : MonoBehaviour
             }
             if (type == items.Unit)
             {
-
+                other.GetComponent<Player>().itemCount++;
             }
 
             Destroy(this.gameObject, 3.5f);
-            GetComponent<Renderer>().enabled = false;
+            if (transform.GetChild(0))
+                transform.GetChild(0).gameObject.SetActive(false);
         }
     }
 }

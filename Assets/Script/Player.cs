@@ -10,11 +10,14 @@ public class Player : MonoBehaviour
     private float Xmove;
     private float Ymove;
     private bool reload;
+
+    public int itemCount;
     void Start()
     {
         Time.timeScale = 1;
         ability = GetComponent<Ability>();
         reload = false;
+        itemCount = 0;
     }
 
     void Update()
@@ -58,13 +61,13 @@ public class Player : MonoBehaviour
     public IEnumerator Invincible()
     {
         gameObject.layer = 9;
-        GetComponent<MeshRenderer>().material.color -= new Color32(0, 0, 0, 200);
+        GetComponent<MeshRenderer>().material.color -= new Color32(0, 0, 0, 254);
         for (int i = 0; i < 3; i++)
         {
             yield return new WaitForSeconds(0.25f);
-            GetComponent<MeshRenderer>().material.color += new Color32(0, 0, 0, 200);
+            GetComponent<MeshRenderer>().material.color += new Color32(0, 0, 0, 254);
             yield return new WaitForSeconds(0.25f);
-            GetComponent<MeshRenderer>().material.color -= new Color32(0, 0, 0, 200);
+            GetComponent<MeshRenderer>().material.color -= new Color32(0, 0, 0, 254);
         }
         gameObject.layer = 3;
         GetComponent<MeshRenderer>().material.color = new Color32(0, 0, 0, 255);

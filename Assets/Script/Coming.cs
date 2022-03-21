@@ -26,7 +26,8 @@ public class Coming : MonoBehaviour
             Score.instance.AddScore(ability.score);
             if (GetComponentInChildren<ParticleSystem>())
                 GetComponentInChildren<ParticleSystem>().Play();
-            GetComponent<MeshRenderer>().material.color = new Color32(95, 95, 95, 250);
+            if (GetComponent<MeshRenderer>())
+                GetComponent<MeshRenderer>().material.color = new Color32(95, 95, 95, 200);
             if (gameObject.tag != "Item")
                 Destroy(this.gameObject, 1);
         }

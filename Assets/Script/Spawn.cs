@@ -17,14 +17,16 @@ public class Spawn : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
             StopCoroutine("Spawner");
+        if (Input.GetKeyDown(KeyCode.X))
+            StartCoroutine("Spawner", 1);
     }
 
     IEnumerator Spawner(int index)
     {
         while (true)
         {
-            yield return new WaitForSeconds(time[index]);
             Instantiate(entity[index], RandomPos(), Quaternion.Euler(0, 0, 0));
+            yield return new WaitForSeconds(time[index]);
         }
     }
 
