@@ -18,9 +18,13 @@ public class Blood : MonoBehaviour
         ability = GetComponent<Ability>();
     }
     void Update()
-    {
+    {            
+        Vector3 roate = new Vector3(1, 1, 1) * randRotation * rotation_speed * ability.speed * 2;
+        if (roate == Vector3.zero)
+            randRotation = 1;
+        
         if (ability.hp > 0)
-            transform.Rotate(new Vector3(1, 1, 1) * randRotation * rotation_speed * Time.deltaTime);
+            transform.Rotate(roate * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,10 +38,11 @@ public class Blood : MonoBehaviour
         {
             ability.hp--;
             ability.speed /= 2;
-            GetComponent<MeshRenderer>().material.color -= new Color32(70, 0, 0 , 0);
+            GetComponent<MeshRenderer>().material.color -= new Color32(70, 0, 0, 0);
             if (ability.hp > 0)
                 StartCoroutine(invincible());
         }
+        else return;
 
         if (ability.hp <= 0)
         {

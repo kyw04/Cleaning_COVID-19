@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private Ability player_ability;
     public float speed = 1;
+    public float damage;
+
+    private Ability player_ability;
+
     void Start()
     {
         player_ability = GameObject.Find("Player").GetComponent<Ability>();
@@ -13,24 +16,32 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        transform.position += Vector3.up * speed * Time.deltaTime;
+        if (gameObject.layer == 3)
+            transform.position += Vector3.up * speed * Time.deltaTime;
+        else if (gameObject.layer == 7)
+            transform.position += transform.forward * speed * Time.deltaTime;
 
         Destroy(this.gameObject, 5);
     }
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag != "Item")
+        if (collision.gameObject.tag != "Item" && collision.gameObject.tag != "Bullet")
         {
             GetComponentInChildren<ParticleSystem>().Play();
             gameObject.layer = 8;
-            gameObject.GetComponent<MeshRenderer>().material.color = new Color32(0, 0, 0, 0);
+            GetComponent<Renderer>().enabled = false;
             Destroy(this.gameObject, 1);
         }
 
         if (collision.gameObject.tag == "Monster")
         {
             collision.GetComponent<Ability>().hp -= player_ability.damage;
+        }
+
+        if (collision.gameObject.tag == "Player")
+        {
+            player_ability.hp -= damage;
         }
     }
 

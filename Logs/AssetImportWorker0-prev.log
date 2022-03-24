@@ -15,11 +15,11 @@ C:/Users/rladu/OneDrive/문서/GitHub/virus_game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59536
+61091
 Successfully changed project path to: C:/Users/rladu/OneDrive/문서/GitHub/virus_game
 C:/Users/rladu/OneDrive/문서/GitHub/virus_game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 116.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,417 +35,2356 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003961 seconds.
+Registered in 0.002881 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.577 seconds
+- Completed reload, in  2.426 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008466 seconds.
+Registered in 0.007288 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.127 seconds
+- Completed reload, in  1.492 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1551 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.1 MB.
-System memory in use after: 70.2 MB.
+Unloading 1552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.9 MB.
+System memory in use after: 71.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1983.
-Total: 2.648400 ms (FindLiveObjects: 0.194300 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.319200 ms  DeleteObjects: 0.081100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/New Physic Material.physicMaterial
-  artifactKey: Guid(f8cc79bfb9bbfda418e30ec119875ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Physic Material.physicMaterial using Guid(f8cc79bfb9bbfda418e30ec119875ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b8da148834ee7d0821646088dddea2') in 0.138907 seconds
-  Import took 0.144289 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 2.192600 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.812300 ms  DeleteObjects: 0.072700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.739625 seconds.
-  path: Assets/Material/Background.mat
-  artifactKey: Guid(d4a0890931d0fd44eaccf5436fac30d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Background.mat using Guid(d4a0890931d0fd44eaccf5436fac30d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760fe38dc8db616db4130e2bec56d990') in 0.296855 seconds
-  Import took 0.301338 seconds .
+  path: Assets/BiologyPack/Materials/Cell_8_B.mat
+  artifactKey: Guid(e842d2b1db39e734bb832a6156fdd8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_8_B.mat using Guid(e842d2b1db39e734bb832a6156fdd8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28df198e0373014c081e0be5f27a28d') in 0.237636 seconds
+  Import took 0.246542 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Material/Particle.mat
-  artifactKey: Guid(b07cc13e7f8f07e4e80603427c5a2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Particle.mat using Guid(b07cc13e7f8f07e4e80603427c5a2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6414c393f644bbd58b9b2838c27c9fe') in 0.073620 seconds
-  Import took 0.077971 seconds .
+  Time since last request: 0.000360 seconds.
+  path: Assets/BiologyPack/Materials/Cell_3_A.mat
+  artifactKey: Guid(384bcb2c5889caa47826131b254218e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_3_A.mat using Guid(384bcb2c5889caa47826131b254218e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9355c4966d9b0d8279447ff43681737') in 0.175500 seconds
+  Import took 0.182800 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Material/Shield.mat
-  artifactKey: Guid(2d5025326606db24db5ff4e4a19087ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Shield.mat using Guid(2d5025326606db24db5ff4e4a19087ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e966e1c7f01027521fb64ff5a23edd0') in 0.030682 seconds
-  Import took 0.034658 seconds .
+  Time since last request: 0.000456 seconds.
+  path: Assets/BiologyPack/Materials/Sperm_Albedo.mat
+  artifactKey: Guid(fa44764e16079e244820544c34a5e86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Sperm_Albedo.mat using Guid(fa44764e16079e244820544c34a5e86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77db0ebf798c420af3f28e280f612ac6') in 0.048889 seconds
+  Import took 0.057537 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Material/Bullet.mat
-  artifactKey: Guid(03ed6ba1f1d8c064fa64310df2125f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Bullet.mat using Guid(03ed6ba1f1d8c064fa64310df2125f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c7cd9c88971bd45097e2778a423e52') in 0.272682 seconds
-  Import took 0.277367 seconds .
+  Time since last request: 0.000420 seconds.
+  path: Assets/BiologyPack/Materials/Cell_1_B.mat
+  artifactKey: Guid(b1368ead765824b4eb64027961008c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_1_B.mat using Guid(b1368ead765824b4eb64027961008c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534a8733392a6962f56bef1861d7b6a6') in 0.084790 seconds
+  Import took 0.092796 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.378387 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569e49c7e70ff39b35656d205b3f04fb') in 0.009955 seconds
-  Import took 0.014835 seconds .
+  Time since last request: 0.000314 seconds.
+  path: Assets/BiologyPack/Materials/Virus_7.mat
+  artifactKey: Guid(01eecae641e5e984f92ea8ec96ae13c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_7.mat using Guid(01eecae641e5e984f92ea8ec96ae13c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36e14893d6bd1e808eab745a1fd4fc9') in 0.082915 seconds
+  Import took 0.091391 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009024 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569e49c7e70ff39b35656d205b3f04fb') in 0.003250 seconds
-  Import took 0.006404 seconds .
+  Time since last request: 0.000344 seconds.
+  path: Assets/BiologyPack/Materials/Cell_9_A.mat
+  artifactKey: Guid(244f5f4049e52b245a5860f0b985e53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_9_A.mat using Guid(244f5f4049e52b245a5860f0b985e53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbd89197a2bbeca5a7f4d2797b1c56c') in 0.083901 seconds
+  Import took 0.090832 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.927414 seconds.
-  path: Assets/Object/Blood.prefab
-  artifactKey: Guid(f2bfba4e3decf0f4fa863cacaa8a8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Blood.prefab using Guid(f2bfba4e3decf0f4fa863cacaa8a8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd2c54f765fd1d16c8834a3242474e1') in 0.231598 seconds
-  Import took 0.236302 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/BiologyPack/Materials/Cell_7_B.mat
+  artifactKey: Guid(5abc84317e616964cb8cb29eee2192bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_7_B.mat using Guid(5abc84317e616964cb8cb29eee2192bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a88b5ba4434ba6dc64183b12b36045') in 0.086477 seconds
+  Import took 0.093902 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Object/Monster_1.prefab
-  artifactKey: Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Monster_1.prefab using Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1375524cb28f02cb59daa7d7a090ca') in 0.356705 seconds
-  Import took 0.361548 seconds .
+  Time since last request: 0.000381 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_3.mat
+  artifactKey: Guid(7d88eef828a6c6242aa610ee38693257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_3.mat using Guid(7d88eef828a6c6242aa610ee38693257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667b093413cecacda9d4d820380e2b5d') in 0.076816 seconds
+  Import took 0.087906 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Object/Item_6.prefab
-  artifactKey: Guid(6759c5fb3fe08884c83023b2d2bef727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Item_6.prefab using Guid(6759c5fb3fe08884c83023b2d2bef727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25150442d12b67b207f0cdd7f1853008') in 0.038041 seconds
-  Import took 0.042278 seconds .
+  Time since last request: 0.000557 seconds.
+  path: Assets/BiologyPack/Materials/Cell_2_B.mat
+  artifactKey: Guid(0baf6562907b9de42970a3cc2b99efd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_2_B.mat using Guid(0baf6562907b9de42970a3cc2b99efd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51385a7f478c857cfa373f45ec50d9ca') in 0.088707 seconds
+  Import took 0.094544 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/BiologyPack/health_up.fbx
-  artifactKey: Guid(d7d688456e65e104a9a3bf68c800829b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BiologyPack/health_up.fbx using Guid(d7d688456e65e104a9a3bf68c800829b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94b938a374f9107b1bfd75f4a6a7432') in 0.185217 seconds
-  Import took 0.191626 seconds .
+  Time since last request: 0.000258 seconds.
+  path: Assets/BiologyPack/Materials/Sperm.mat
+  artifactKey: Guid(b46c1fa260fd14044b8d4a3d7f2d8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Sperm.mat using Guid(b46c1fa260fd14044b8d4a3d7f2d8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa26b4bba389453ef40982e5ccc0564') in 0.074458 seconds
+  Import took 0.081689 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Object/Item_3.prefab
-  artifactKey: Guid(a051b107f0b4f294d874cb6a3c602094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Item_3.prefab using Guid(a051b107f0b4f294d874cb6a3c602094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7911e8841cdd80c499e8a78663f232') in 0.026483 seconds
-  Import took 0.031427 seconds .
+  Time since last request: 0.000302 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_13.mat
+  artifactKey: Guid(dcddfc5fc95a4b24bbeec6e38052e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_13.mat using Guid(dcddfc5fc95a4b24bbeec6e38052e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2a9311314a3e2b4e44b6a94be5dc3b') in 0.071409 seconds
+  Import took 0.078303 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Object/Item_2.prefab
-  artifactKey: Guid(7e7b2082bf9ea6a43890b21978e035c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Item_2.prefab using Guid(7e7b2082bf9ea6a43890b21978e035c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93e1f7553aa6d9ddd53239835330566') in 0.022420 seconds
-  Import took 0.029612 seconds .
+  Time since last request: 0.000370 seconds.
+  path: Assets/BiologyPack/Materials/Virus_5.mat
+  artifactKey: Guid(2d34bccfd44c1e3418eb5fecf3efbeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_5.mat using Guid(2d34bccfd44c1e3418eb5fecf3efbeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e550730f35a5561fb09aff13de4a3b1') in 0.088528 seconds
+  Import took 0.099297 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/BiologyPack/boom.fbx
-  artifactKey: Guid(f0f550ae91852e44dae4f45b1067b38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BiologyPack/boom.fbx using Guid(f0f550ae91852e44dae4f45b1067b38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e9e5aee2b205d7616222a3dd5f41b9') in 0.071936 seconds
-  Import took 0.078898 seconds .
+  Time since last request: 0.000464 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_10.mat
+  artifactKey: Guid(94b9876eaad55024fb23e27dd3032897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_10.mat using Guid(94b9876eaad55024fb23e27dd3032897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0dda5f16419cd2b3e8ed222f264605') in 0.082883 seconds
+  Import took 0.093548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/BiologyPack/pollution_up.fbx
-  artifactKey: Guid(c083c57e16988dd45a6326e9375f59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BiologyPack/pollution_up.fbx using Guid(c083c57e16988dd45a6326e9375f59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f67f62e48e1acdae1a0c6971770516') in 0.131777 seconds
-  Import took 0.136864 seconds .
+  Time since last request: 0.000320 seconds.
+  path: Assets/BiologyPack/Materials/Virus_3.mat
+  artifactKey: Guid(5c2273bfde53a8a47a41168fd22144d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_3.mat using Guid(5c2273bfde53a8a47a41168fd22144d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1afa6f35d6279285595adbbf3cd9e1') in 0.086789 seconds
+  Import took 0.095157 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Object/Player.prefab
-  artifactKey: Guid(4c1aa9b29623a9b4d8f68a4950666899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Player.prefab using Guid(4c1aa9b29623a9b4d8f68a4950666899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be31ef6eec58275255495191c5edeb68') in 0.192154 seconds
-  Import took 0.196719 seconds .
+  Time since last request: 0.000362 seconds.
+  path: Assets/BiologyPack/Materials/Cell_6_A.mat
+  artifactKey: Guid(661120c7d48789642be2ad11922f4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_6_A.mat using Guid(661120c7d48789642be2ad11922f4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de8f5df3cb80a84adfcc86b51807c71') in 0.093563 seconds
+  Import took 0.102096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Object/Item_1.prefab
-  artifactKey: Guid(22c053170917ce248a29f1ee481de235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Item_1.prefab using Guid(22c053170917ce248a29f1ee481de235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261b2e02588c8e47fca85a74d4dc28ea') in 0.024639 seconds
-  Import took 0.029921 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/BiologyPack/Materials/NanoBot.mat
+  artifactKey: Guid(8c35c545780cbf34f8bf45ca3c4d98ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/NanoBot.mat using Guid(8c35c545780cbf34f8bf45ca3c4d98ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea141472a89960b550fd3a783fd2f4a') in 0.045928 seconds
+  Import took 0.053321 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Object/Leukocyte.prefab
-  artifactKey: Guid(08c3880f3e799324b8b12edbca0433f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Leukocyte.prefab using Guid(08c3880f3e799324b8b12edbca0433f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c7bf49ae92e828ac327948ae57d776') in 0.078383 seconds
-  Import took 0.085023 seconds .
+  Time since last request: 0.000339 seconds.
+  path: Assets/BiologyPack/Materials/Virus_4.mat
+  artifactKey: Guid(0aea599481bd6fe48a87542e126686ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_4.mat using Guid(0aea599481bd6fe48a87542e126686ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5e078fc20181417161ffc2a87ff1a9') in 0.084209 seconds
+  Import took 0.091459 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/BiologyPack/unit_plus.fbx
-  artifactKey: Guid(1109ef3be0b26054fb70f4ff165cf631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BiologyPack/unit_plus.fbx using Guid(1109ef3be0b26054fb70f4ff165cf631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b108b7891d4b4b60ba4bc67826d75d') in 0.075118 seconds
-  Import took 0.079496 seconds .
+  Time since last request: 0.000358 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_11.mat
+  artifactKey: Guid(aff3f3cf53021b14684f92bbaa882dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_11.mat using Guid(aff3f3cf53021b14684f92bbaa882dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9a9b59ec286449ecb0c17b59fa6ec1') in 0.083090 seconds
+  Import took 0.091699 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Object/Item_4.prefab
-  artifactKey: Guid(15ffb2957eb803f41b14bf7ad9753b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Item_4.prefab using Guid(15ffb2957eb803f41b14bf7ad9753b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a260a5eb43c6a2762b1bfc19797c38') in 0.024258 seconds
-  Import took 0.030600 seconds .
+  Time since last request: 0.000376 seconds.
+  path: Assets/BiologyPack/Materials/Molecule_4.mat
+  artifactKey: Guid(8cdc676e3c23c2742912f0fd1bb96481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Molecule_4.mat using Guid(8cdc676e3c23c2742912f0fd1bb96481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d5b4aa8514a5478eb967b4e01995c3') in 0.085631 seconds
+  Import took 0.094704 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000378 seconds.
-  path: Assets/Object/Item_5.prefab
-  artifactKey: Guid(a8b40a7f1e3203449addb40fcd2bf72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Item_5.prefab using Guid(a8b40a7f1e3203449addb40fcd2bf72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4711fb34e98f13362474f31fa4e625cc') in 0.034842 seconds
-  Import took 0.041000 seconds .
+  path: Assets/BiologyPack/Materials/Bacteria_12.mat
+  artifactKey: Guid(42fc02bd6d0a8ed4383200a77e9ba69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_12.mat using Guid(42fc02bd6d0a8ed4383200a77e9ba69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c79394f0e891a36e701534906ac0c8c') in 0.075030 seconds
+  Import took 0.081555 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Object/Wave_1.prefab
-  artifactKey: Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Wave_1.prefab using Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b995e06fd60c9e20894442f737043a') in 0.041703 seconds
-  Import took 0.049461 seconds .
+  Time since last request: 0.000296 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_16.mat
+  artifactKey: Guid(8a2a5fc5758f157499cec45d7f72655f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_16.mat using Guid(8a2a5fc5758f157499cec45d7f72655f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b1a607774269a26367efcfeb63bda5') in 0.081537 seconds
+  Import took 0.087225 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/BiologyPack/defense_up.fbx
-  artifactKey: Guid(6fb288fa4403b7846acc9f345c9a0b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BiologyPack/defense_up.fbx using Guid(6fb288fa4403b7846acc9f345c9a0b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376aff25f84f485c032807f8283bc8ba') in 0.068320 seconds
-  Import took 0.074585 seconds .
+  Time since last request: 0.000307 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_6.mat
+  artifactKey: Guid(402178bf4798bea43a981b87064d56c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_6.mat using Guid(402178bf4798bea43a981b87064d56c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545597c6b521ddacfc827eb11bcc0f0f') in 0.077345 seconds
+  Import took 0.082680 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/BiologyPack/damage_up (1).fbx
-  artifactKey: Guid(5b3f672f1296df54fb1e0001b142cad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BiologyPack/damage_up (1).fbx using Guid(5b3f672f1296df54fb1e0001b142cad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898d451888b129b696c9aa61955f864a') in 0.069959 seconds
-  Import took 0.075056 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/BiologyPack/Materials/Cell_9_B.mat
+  artifactKey: Guid(1da4aee2f40dd094b8410693d99dafe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_9_B.mat using Guid(1da4aee2f40dd094b8410693d99dafe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8282b5155684374535cd608aa891b549') in 0.063112 seconds
+  Import took 0.067985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/BiologyPack/Materials/Virus_6.mat
+  artifactKey: Guid(b99bf446a16a74d4a968d7309916f04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_6.mat using Guid(b99bf446a16a74d4a968d7309916f04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752e477ce4d2a2c0a73be082e1dc1a16') in 0.079701 seconds
+  Import took 0.085571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_4.mat
+  artifactKey: Guid(942534aaa57d13a4aace87307f57582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_4.mat using Guid(942534aaa57d13a4aace87307f57582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df518bee6f8ef124b0f031f757e0c6c4') in 0.077890 seconds
+  Import took 0.083996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_19.mat
+  artifactKey: Guid(fbf9315156a418f46ac856056587766c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_19.mat using Guid(fbf9315156a418f46ac856056587766c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f877778a9aa965ace203015c443e9477') in 0.080010 seconds
+  Import took 0.084020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_14.mat
+  artifactKey: Guid(da4a62dbd6ec1d146bb8a740bf27f4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_14.mat using Guid(da4a62dbd6ec1d146bb8a740bf27f4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a32d8610f5fd594a8a804aa44adb7e') in 0.081928 seconds
+  Import took 0.085086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/BiologyPack/Materials/Chromosome_X.mat
+  artifactKey: Guid(4bb5a0cb7954b554eba74082d5394c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Chromosome_X.mat using Guid(4bb5a0cb7954b554eba74082d5394c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fb69870532ad3de7bc2719b8472433') in 0.083135 seconds
+  Import took 0.088082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/BiologyPack/Materials/Cell_7_A.mat
+  artifactKey: Guid(69451bbf48b08aa408021b1415b438c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_7_A.mat using Guid(69451bbf48b08aa408021b1415b438c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e868ca5181b2b41868021baae5e5e2') in 0.049068 seconds
+  Import took 0.054457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/BiologyPack/Materials/Cell_2_A.mat
+  artifactKey: Guid(ee9a7ea0a1f357e4d8150bb96e00fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_2_A.mat using Guid(ee9a7ea0a1f357e4d8150bb96e00fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f063cf963020f1666633f1d0b858f9a2') in 0.045821 seconds
+  Import took 0.052899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/BiologyPack/Materials/Virus_2.mat
+  artifactKey: Guid(11e1b03bc332e664d92488bbe1d105e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_2.mat using Guid(11e1b03bc332e664d92488bbe1d105e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca2f11dabd9e320203b31cf506b6847') in 0.085247 seconds
+  Import took 0.091435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/BiologyPack/Materials/Cell_6_B.mat
+  artifactKey: Guid(8da041177d07b2944b75281ae5b4eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_6_B.mat using Guid(8da041177d07b2944b75281ae5b4eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc912050d8bc1ace7866a68b170a8b0') in 0.051618 seconds
+  Import took 0.055577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/BiologyPack/Materials/Cell_1_A.mat
+  artifactKey: Guid(517a5696fdf4e524b8bdff09638dcd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_1_A.mat using Guid(517a5696fdf4e524b8bdff09638dcd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175200d9ae2745d5e69b33947ac2dad7') in 0.046503 seconds
+  Import took 0.052896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_15.mat
+  artifactKey: Guid(35905bba074341347a330902c93e3ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_15.mat using Guid(35905bba074341347a330902c93e3ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2722e7b4e30a5767a545b5b49dcb1e8') in 0.087290 seconds
+  Import took 0.092275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/BiologyPack/Materials/Molecule_3.mat
+  artifactKey: Guid(5f7272fa620b88e4383ed52da0aeac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Molecule_3.mat using Guid(5f7272fa620b88e4383ed52da0aeac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9636fe7b773a4d76e0796d0bf07d30') in 0.082275 seconds
+  Import took 0.087280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/BiologyPack/Materials/Virus_1.mat
+  artifactKey: Guid(6c5fa7712edade94b979cea3ea7ccf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_1.mat using Guid(6c5fa7712edade94b979cea3ea7ccf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26b59277a5abd83b7e1372a14eaa141') in 0.083480 seconds
+  Import took 0.088912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_2.mat
+  artifactKey: Guid(e1d135aaf32eb694ea37ccd9022c5fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_2.mat using Guid(e1d135aaf32eb694ea37ccd9022c5fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b391371f8b20778552313480ac88a3a') in 0.082990 seconds
+  Import took 0.087342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_18.mat
+  artifactKey: Guid(2a8e697c1ef168d409e738e744bd9826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_18.mat using Guid(2a8e697c1ef168d409e738e744bd9826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e0a34ef0cbeec91df340c124cbb352') in 0.077734 seconds
+  Import took 0.083757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/BiologyPack/Materials/Cell_4_A.mat
+  artifactKey: Guid(d8f0348f80cb8454b8050911252e045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_4_A.mat using Guid(d8f0348f80cb8454b8050911252e045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbf085a7849715a1ddfcbc910d80eb6') in 0.091059 seconds
+  Import took 0.096807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/BiologyPack/Materials/Virus_8.mat
+  artifactKey: Guid(89ee1f8c09afa274e967631dbe21034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_8.mat using Guid(89ee1f8c09afa274e967631dbe21034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab62899af352501884ee1c36aed9ea02') in 0.079208 seconds
+  Import took 0.083933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/BiologyPack/Materials/Cell_4_B.mat
+  artifactKey: Guid(fe6328fdab5adf945a9bbca41ae3ed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_4_B.mat using Guid(fe6328fdab5adf945a9bbca41ae3ed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a4c85390b349f42ccb2dbbad997307') in 0.043278 seconds
+  Import took 0.050312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_20.mat
+  artifactKey: Guid(68f27d560890c65468ceaa1e25249037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_20.mat using Guid(68f27d560890c65468ceaa1e25249037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45df312f89aa02711eefb76c89c052b8') in 0.079649 seconds
+  Import took 0.086080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/BiologyPack/Materials/Cell_5_A.mat
+  artifactKey: Guid(3a4a6080020baa242b794a6d83b5e69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_5_A.mat using Guid(3a4a6080020baa242b794a6d83b5e69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb3d672fe38bf9d462b10c17264f102') in 0.092013 seconds
+  Import took 0.099022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000860 seconds.
+  path: Assets/BiologyPack/Materials/Virus_9.mat
+  artifactKey: Guid(0272ba14da8b6e447826c39f82722fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_9.mat using Guid(0272ba14da8b6e447826c39f82722fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81597ff549b56b3add4bcef08ac8e1ea') in 0.087892 seconds
+  Import took 0.094464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/BiologyPack/Materials/Cell_8_A.mat
+  artifactKey: Guid(f9d9278c4de50784490914819872ceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_8_A.mat using Guid(f9d9278c4de50784490914819872ceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf4c06e3058715aa6f881d6595bb41e') in 0.051099 seconds
+  Import took 0.065111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004636 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_5.mat
+  artifactKey: Guid(9e31a705ee9ea9842afdf3164e0236cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_5.mat using Guid(9e31a705ee9ea9842afdf3164e0236cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5368c45958ca158c306e4ac9337a50fc') in 0.099555 seconds
+  Import took 0.108793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_9.mat
+  artifactKey: Guid(087d4687cb17bbc45a34bf2cadd00c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_9.mat using Guid(087d4687cb17bbc45a34bf2cadd00c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de57965f655ccc0c67a30bc1201af422') in 0.091336 seconds
+  Import took 0.133865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/BiologyPack/Materials/Cell_3_B.mat
+  artifactKey: Guid(a9925507a90f328409cb3db29eecd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_3_B.mat using Guid(a9925507a90f328409cb3db29eecd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bbd27c699883288a5c752c240e18ed') in 0.056239 seconds
+  Import took 0.076407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/BiologyPack/Materials/Cell_5_B.mat
+  artifactKey: Guid(d4f6290392632b141a3dc2e8e11ae968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_5_B.mat using Guid(d4f6290392632b141a3dc2e8e11ae968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256d1ab0d81d125e33788018d9bf287c') in 0.057255 seconds
+  Import took 0.065931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_7.mat
+  artifactKey: Guid(d316d8b1d3e8a664db87624fbb655541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_7.mat using Guid(d316d8b1d3e8a664db87624fbb655541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e54a2957a68640a3f2b82e1f58085e4') in 0.070198 seconds
+  Import took 0.076404 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000323 seconds.
-  path: Assets/Object/Bullet.prefab
-  artifactKey: Guid(29e5f5c7abf8ac24ba9c07904ca8cbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Object/Bullet.prefab using Guid(29e5f5c7abf8ac24ba9c07904ca8cbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651a9f876d2abded5d16a9e354312fe2') in 0.027571 seconds
-  Import took 0.038491 seconds .
+  path: Assets/BiologyPack/Materials/Bacteria_17.mat
+  artifactKey: Guid(56f7ecc613e7556418274d56e80c4935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_17.mat using Guid(56f7ecc613e7556418274d56e80c4935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3133186afe61e5790ca74dd68e00159') in 0.070444 seconds
+  Import took 0.076328 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.355455 seconds.
-  path: Assets/Script/Blood.cs
-  artifactKey: Guid(e23f2ce4a2a4e25418d23289b91e5334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Blood.cs using Guid(e23f2ce4a2a4e25418d23289b91e5334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9271ab62b76eea1cd6f8c2179fc16a34') in 0.015186 seconds
-  Import took 0.019877 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.274710 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.717 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.2 MB.
-System memory in use after: 74.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2033.
-Total: 4.353400 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.099100 ms MarkObjects: 3.822200 ms  DeleteObjects: 0.129100 ms)
+  Time since last request: 0.000315 seconds.
+  path: Assets/BiologyPack/Materials/Chromosome_Y.mat
+  artifactKey: Guid(73f2471b0d3eea74c81d4fd6f610f1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Chromosome_Y.mat using Guid(73f2471b0d3eea74c81d4fd6f610f1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c26cf11a13dd0c1b3d206165920c72') in 0.065492 seconds
+  Import took 0.070835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.054094 seconds.
-  path: Assets/Script/Blood.cs
-  artifactKey: Guid(e23f2ce4a2a4e25418d23289b91e5334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Blood.cs using Guid(e23f2ce4a2a4e25418d23289b91e5334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bc0953038c4a6ce8e7de16be323f9b') in 0.010368 seconds
-  Import took 0.016153 seconds .
+  Time since last request: 0.000270 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_8.mat
+  artifactKey: Guid(d6bc39b4c599860449fa8f48661a348f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_8.mat using Guid(d6bc39b4c599860449fa8f48661a348f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59058b4fffdcb290bfe226db67cf57ef') in 0.075814 seconds
+  Import took 0.081546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/BiologyPack/Materials/DNA.mat
+  artifactKey: Guid(f097963fea352fc4097659203be59a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/DNA.mat using Guid(f097963fea352fc4097659203be59a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3bb94845aa23cd01ba7424afc1279f') in 0.076653 seconds
+  Import took 0.083355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/BiologyPack/Materials/Bacteria_1.mat
+  artifactKey: Guid(75becd176e5f83345bf2a2ccf772f467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Bacteria_1.mat using Guid(75becd176e5f83345bf2a2ccf772f467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d0f6fa2613f542b15c91cf0f3bc779') in 0.077356 seconds
+  Import took 0.081612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/BiologyPack/Materials/Molecule_2.mat
+  artifactKey: Guid(74a618d544b44244596e49d5a17f3c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Molecule_2.mat using Guid(74a618d544b44244596e49d5a17f3c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9aaf678257be139140e1ce8eeb9510') in 0.078295 seconds
+  Import took 0.084560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/BiologyPack/Materials/Molecule_1.mat
+  artifactKey: Guid(2d366320641b1954b9fef5f078f6846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Molecule_1.mat using Guid(2d366320641b1954b9fef5f078f6846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf97a042bd49cf7d4484da167ac0e37') in 0.078173 seconds
+  Import took 0.088041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/BiologyPack/Materials/RedBloodCell.mat
+  artifactKey: Guid(02d879a647f5b804f922ad88e6f69ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/RedBloodCell.mat using Guid(02d879a647f5b804f922ad88e6f69ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b04df817b7e42a4806da19e27aa3eb') in 0.087141 seconds
+  Import took 0.095226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/BiologyPack/Materials/Virus_10.mat
+  artifactKey: Guid(a5a63e48c824c4a4d80bd90b9055274e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Virus_10.mat using Guid(a5a63e48c824c4a4d80bd90b9055274e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e013b6104123a6c1a61ab7873c89fb41') in 0.077198 seconds
+  Import took 0.082771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/BiologyPack/Materials/Cell_10.mat
+  artifactKey: Guid(0ee4c2aac20f7a24983821a9b24892d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Materials/Cell_10.mat using Guid(0ee4c2aac20f7a24983821a9b24892d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991b1ece329b2f22405457fa0a3b72ae') in 0.090912 seconds
+  Import took 0.096279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.893131 seconds.
+  path: Assets/Object/Monster_1.prefab
+  artifactKey: Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_1.prefab using Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1dd193e9685d41431cebfdc15d0be9') in 0.067713 seconds
+  Import took 0.073691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Object/Wave_1.prefab
+  artifactKey: Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Wave_1.prefab using Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e9a62c5dd486345509576fc514ca81') in 0.041213 seconds
+  Import took 0.049420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.629240 seconds.
+  path: Assets/Object/Monster_1.prefab
+  artifactKey: Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_1.prefab using Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82541db9cd4525200054ff82f2c0f550') in 0.030349 seconds
+  Import took 0.036831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/Object/Wave_1.prefab
+  artifactKey: Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Wave_1.prefab using Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a3124ef69066846118c472096d2a08') in 0.046380 seconds
+  Import took 0.053752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945140 seconds.
+  path: Assets/Object/Monster_1.prefab
+  artifactKey: Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_1.prefab using Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894733ff4e8b740e0c56d813a6c16c24') in 0.035187 seconds
+  Import took 0.043195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Object/Wave_1.prefab
+  artifactKey: Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Wave_1.prefab using Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6061eef5bcef3bc33e7e4ae7cdecccfc') in 0.043527 seconds
+  Import took 0.051536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.370812 seconds.
+  path: Assets/Object/Monster_1.prefab
+  artifactKey: Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_1.prefab using Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3189d388eaa57e2cfe554719fc9e041d') in 0.037780 seconds
+  Import took 0.046259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Object/Wave_1.prefab
+  artifactKey: Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Wave_1.prefab using Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a5ffdeb77680e2d320b6f47cc5c641') in 0.039765 seconds
+  Import took 0.045915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.374829 seconds.
+  path: Assets/Object/Monster_1.prefab
+  artifactKey: Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_1.prefab using Guid(6cfb9bcbf4cad654fb5fef5163921292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91067491b84f0ced710ee9e9cb79dfc8') in 0.035633 seconds
+  Import took 0.041077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Object/Wave_1.prefab
+  artifactKey: Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Wave_1.prefab using Guid(bb2a5b36c43ad1049b6fb5cda7b51678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa82e7686775542e7d1ef3e4d8e0512') in 0.033275 seconds
+  Import took 0.040526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.070662 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_1_Albedo.png
+  artifactKey: Guid(6eb9d5befb55070498acd0af7071ae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_1_Albedo.png using Guid(6eb9d5befb55070498acd0af7071ae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123e16f50aad7d8ac8313ff6c24a05d6') in 0.082850 seconds
+  Import took 0.086803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_8_Normal.png
+  artifactKey: Guid(4e4130cdc2554154e8e90729088b2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_8_Normal.png using Guid(4e4130cdc2554154e8e90729088b2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e51b93bc811331297cbb2c898e44f9') in 0.040510 seconds
+  Import took 0.046427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_5_Albedo.png
+  artifactKey: Guid(3b871f3219aed27469a5096ff5c26ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_5_Albedo.png using Guid(3b871f3219aed27469a5096ff5c26ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200605db0025d110aff7065c740ea06a') in 0.026102 seconds
+  Import took 0.032620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_3_Albedo.png
+  artifactKey: Guid(6a9cc0dab81891d45baa8ec6ef75158b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_3_Albedo.png using Guid(6a9cc0dab81891d45baa8ec6ef75158b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488485afcc6d6b16a83a29ef6c324128') in 0.021703 seconds
+  Import took 0.029315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_13_Normal.png
+  artifactKey: Guid(5c88149b97967524db218ce1b6a5bd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_13_Normal.png using Guid(5c88149b97967524db218ce1b6a5bd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183a124aca2129923f9ab0b3862f2cd4') in 0.024727 seconds
+  Import took 0.031414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_14_Specular.png
+  artifactKey: Guid(049c6d037c12c524d88cd517f825487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_14_Specular.png using Guid(049c6d037c12c524d88cd517f825487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff794045c358a34ec9b6fe58bfaaa3b8') in 0.019222 seconds
+  Import took 0.025090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_6_Normal.png
+  artifactKey: Guid(acb0dbe45a9730e48888aa7c7c5cf022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_6_Normal.png using Guid(acb0dbe45a9730e48888aa7c7c5cf022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956aac6cff84737dd1a41c96ae596f7a') in 0.024265 seconds
+  Import took 0.028567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_14_Normal.png
+  artifactKey: Guid(e5e7b2bfdffdffa49ba363b831aadbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_14_Normal.png using Guid(e5e7b2bfdffdffa49ba363b831aadbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8380b2103967c2515104c2ed31488c03') in 0.023804 seconds
+  Import took 0.030224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_2_Albedo.png
+  artifactKey: Guid(adbca915fb9244e43bda74799addbd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_2_Albedo.png using Guid(adbca915fb9244e43bda74799addbd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaac30e98fb6457a40b44ae80d332bc') in 0.020618 seconds
+  Import took 0.025323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_7_Specular.png
+  artifactKey: Guid(e1a90bce4bc8e674ea3cc9490cd7c604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_7_Specular.png using Guid(e1a90bce4bc8e674ea3cc9490cd7c604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a810c816dd02ff32fb496c0f7146b55') in 0.023719 seconds
+  Import took 0.029237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_7_Albedo.png
+  artifactKey: Guid(506177b735ed74a4c8adc7c1dbffd879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_7_Albedo.png using Guid(506177b735ed74a4c8adc7c1dbffd879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d195436696363b8330e71e895b4b262') in 0.020164 seconds
+  Import took 0.025455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_11_Normal.png
+  artifactKey: Guid(5c7449039bdf9da4abf0cd8366e359ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_11_Normal.png using Guid(5c7449039bdf9da4abf0cd8366e359ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa774e5f54d0fa89f86c7711e28fd431') in 0.027866 seconds
+  Import took 0.034167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_13_Albedo.png
+  artifactKey: Guid(d241cf4cc6743164aa97274215f6148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_13_Albedo.png using Guid(d241cf4cc6743164aa97274215f6148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddff7d670a858225977e47038432dde9') in 0.023982 seconds
+  Import took 0.032546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_12_Albedo.png
+  artifactKey: Guid(af4a55450d38ef448b74854e09f29c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_12_Albedo.png using Guid(af4a55450d38ef448b74854e09f29c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6307bc4935d325505b1dc821eddabc') in 0.022999 seconds
+  Import took 0.027592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_8_Albedo.png
+  artifactKey: Guid(1a0733b90b532c54288d6a48655efd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_8_Albedo.png using Guid(1a0733b90b532c54288d6a48655efd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b13f362a228f4bb76588189074ff3f') in 0.023602 seconds
+  Import took 0.029626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_11_Specular.png
+  artifactKey: Guid(cccd53d4716ef824da5c5eef4466ef3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_11_Specular.png using Guid(cccd53d4716ef824da5c5eef4466ef3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf83abc07975bcc79d871c44246e799b') in 0.023569 seconds
+  Import took 0.027261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_7_Normal.png
+  artifactKey: Guid(f50dc7739189dbf4490309766b47e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_7_Normal.png using Guid(f50dc7739189dbf4490309766b47e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa499beb12c21512a19b44873717f928') in 0.024743 seconds
+  Import took 0.029518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_4_Specular.png
+  artifactKey: Guid(67110404c4c7a024ea42619dd09ddf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_4_Specular.png using Guid(67110404c4c7a024ea42619dd09ddf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e0cea00230c4de78283cbfcbf76d8c') in 0.023754 seconds
+  Import took 0.029674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_9_Albedo.png
+  artifactKey: Guid(532d4ffa9c934f04ea60cf8b0ca9562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_9_Albedo.png using Guid(532d4ffa9c934f04ea60cf8b0ca9562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8984ee52ab3150206ae6417aff2d6fbc') in 0.026109 seconds
+  Import took 0.032864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_12_Normal.png
+  artifactKey: Guid(e2109bb691c262f4c8d5a5ca8ba0d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_12_Normal.png using Guid(e2109bb691c262f4c8d5a5ca8ba0d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd810245da686c1707cd498c534eb115') in 0.031478 seconds
+  Import took 0.040172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_4_Albedo.png
+  artifactKey: Guid(90cac0ec40990dc459f351de3fafb8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_4_Albedo.png using Guid(90cac0ec40990dc459f351de3fafb8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529081b604a4378686b11f70aa5b9789') in 0.024040 seconds
+  Import took 0.031590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_15_Albedo.png
+  artifactKey: Guid(20cb22868d5ba0b448dfd14ba8db88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_15_Albedo.png using Guid(20cb22868d5ba0b448dfd14ba8db88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af3a6266505514058139971144a1fdc') in 0.021446 seconds
+  Import took 0.028778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_12_Specular.png
+  artifactKey: Guid(0381742422587e244a5a3efadea0bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_12_Specular.png using Guid(0381742422587e244a5a3efadea0bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b310a3039e53448e5583eb295e4fd418') in 0.035841 seconds
+  Import took 0.041188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_1_Specular.png
+  artifactKey: Guid(1853f365937f9d047973d55ded1f9d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_1_Specular.png using Guid(1853f365937f9d047973d55ded1f9d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3990c80958a0adf61dcd353ffbf79635') in 0.023325 seconds
+  Import took 0.028132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_5_Normal.png
+  artifactKey: Guid(c4decd4d82173f5429c4b525d317f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_5_Normal.png using Guid(c4decd4d82173f5429c4b525d317f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1228d945e0771148e1caf73bc44e5603') in 0.028053 seconds
+  Import took 0.034145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_2_Normal.png
+  artifactKey: Guid(41a7fbeaaa3f5bb4ea1bfaf7fe8cf22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_2_Normal.png using Guid(41a7fbeaaa3f5bb4ea1bfaf7fe8cf22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0200cb6f1411e3e7b19186fbd133cdac') in 0.043203 seconds
+  Import took 0.049915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_10_Normal.png
+  artifactKey: Guid(013ab0d12cce24b42811e94c406e5857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_10_Normal.png using Guid(013ab0d12cce24b42811e94c406e5857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fce40f9666ed7b00ee1e1ab2c80fbc') in 0.025380 seconds
+  Import took 0.030548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_6_Albedo.png
+  artifactKey: Guid(291070f685a612a4db2dc1f2f4a5f4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_6_Albedo.png using Guid(291070f685a612a4db2dc1f2f4a5f4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1392c196f4f8829c6c15af714344a') in 0.025534 seconds
+  Import took 0.031212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_9_Normal.png
+  artifactKey: Guid(9937da7220d1d73488e1bdb015178b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_9_Normal.png using Guid(9937da7220d1d73488e1bdb015178b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd8632d19be73d310e2925c9880385c') in 0.021502 seconds
+  Import took 0.028170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_14_Albedo.png
+  artifactKey: Guid(6a37edd8794330c438f47704ac388ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_14_Albedo.png using Guid(6a37edd8794330c438f47704ac388ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e755ea7787801a285e5958c7bafae5dd') in 0.023729 seconds
+  Import took 0.028921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_18_Normal.png
+  artifactKey: Guid(467ab893b52570c4184a0a00322a948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_18_Normal.png using Guid(467ab893b52570c4184a0a00322a948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca7cf134737bf946c78edf6eedc4c13') in 0.022414 seconds
+  Import took 0.027304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_20_Albedo.png
+  artifactKey: Guid(0289c411a7c5d314e9e7d897b1aa9195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_20_Albedo.png using Guid(0289c411a7c5d314e9e7d897b1aa9195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38636668a99144e8758a5d3aa7e696c') in 0.026300 seconds
+  Import took 0.030617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_19_Specular.png
+  artifactKey: Guid(a4b0efcaf9812c64b9766bac9e5ff4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_19_Specular.png using Guid(a4b0efcaf9812c64b9766bac9e5ff4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ffd5d2d51d53df69d2b1ed6d6ff229') in 0.028067 seconds
+  Import took 0.033073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_19_Albedo.png
+  artifactKey: Guid(f7fd4e12a35412a4f994bdb284d1cab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_19_Albedo.png using Guid(f7fd4e12a35412a4f994bdb284d1cab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ed32ee2e3c39d30afd3e67ae96ba41') in 0.021310 seconds
+  Import took 0.025688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_20_Normal.png
+  artifactKey: Guid(a8ba9e6ea729c9440a3628938f8b0808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_20_Normal.png using Guid(a8ba9e6ea729c9440a3628938f8b0808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4ea7f99b38d213792e33597372a990') in 0.035460 seconds
+  Import took 0.042050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_18_Albedo.png
+  artifactKey: Guid(7af94bdb45931fc45a8984f2a17d6f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_18_Albedo.png using Guid(7af94bdb45931fc45a8984f2a17d6f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dad970ed464bb297c585acb76dd639') in 0.024427 seconds
+  Import took 0.030736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_20_Specular.png
+  artifactKey: Guid(5a0d875a0fac99a45ba4e5e8c8e68115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_20_Specular.png using Guid(5a0d875a0fac99a45ba4e5e8c8e68115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6ca8b229a804b2e9250a91758c7d9d') in 0.027515 seconds
+  Import took 0.032361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_18_Specular.png
+  artifactKey: Guid(7c9b179418a467c46b9f5f1b447c183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_18_Specular.png using Guid(7c9b179418a467c46b9f5f1b447c183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4b37a883501ac38bfb3117dfea5269') in 0.019419 seconds
+  Import took 0.025603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_16_Specular.png
+  artifactKey: Guid(ee77c081467d73a4287c25cefc7f74dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_16_Specular.png using Guid(ee77c081467d73a4287c25cefc7f74dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98369dde5583d15dcb29212f3bba3d2') in 0.026340 seconds
+  Import took 0.032717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_16_Normal.png
+  artifactKey: Guid(0e1cd32483a57644abece105d0699143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_16_Normal.png using Guid(0e1cd32483a57644abece105d0699143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3922d5a8007c3f7f7f7df62c06b37c9d') in 0.018884 seconds
+  Import took 0.024385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_17_Specular.png
+  artifactKey: Guid(4cd21efda57ab064e94bd45bb63b6486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_17_Specular.png using Guid(4cd21efda57ab064e94bd45bb63b6486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be38be04832f8954554cf88f8d783901') in 0.027280 seconds
+  Import took 0.034316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/BiologyPack/Textures/Cell_1_Specular.png
+  artifactKey: Guid(9444082664aab5547931072e65273204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_1_Specular.png using Guid(9444082664aab5547931072e65273204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc8943b3b9962bf354df10f0c022981') in 0.023037 seconds
+  Import took 0.028378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/BiologyPack/Textures/Cell_3_Normal.png
+  artifactKey: Guid(60b9c7b67d624e9499c63f5144276137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_3_Normal.png using Guid(60b9c7b67d624e9499c63f5144276137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0329b97c9d4a66571d6a1348db7b62c0') in 0.022514 seconds
+  Import took 0.027626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/BiologyPack/Textures/Cell_7_Albedo.png
+  artifactKey: Guid(d1fd1b695fea1b74ea3884e1c1d8dd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_7_Albedo.png using Guid(d1fd1b695fea1b74ea3884e1c1d8dd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140cdfa460bf9a062497128d96c8a90f') in 0.021868 seconds
+  Import took 0.027772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/BiologyPack/Textures/Cell_8_Normal.png
+  artifactKey: Guid(140169dfdfbc95e44a2265f12f1d8ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_8_Normal.png using Guid(140169dfdfbc95e44a2265f12f1d8ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95725c3a954da8532173b1c5b38d3c5') in 0.029301 seconds
+  Import took 0.033894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BiologyPack/Textures/Cell_2_Normal.png
+  artifactKey: Guid(d07639d032bf1fe47b57636b2172e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_2_Normal.png using Guid(d07639d032bf1fe47b57636b2172e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf446f24578f3392df9649f3231b8659') in 0.023844 seconds
+  Import took 0.029740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/BiologyPack/Textures/Cell_9_Albedo.png
+  artifactKey: Guid(270cedc9d9006f742b94b3a607efe7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_9_Albedo.png using Guid(270cedc9d9006f742b94b3a607efe7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ec5cee8f86110d880cdfdaa211b977') in 0.030989 seconds
+  Import took 0.037282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/BiologyPack/Textures/Cell_4_Normal.png
+  artifactKey: Guid(9df67468cd2f7c649aeadec55dc378e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_4_Normal.png using Guid(9df67468cd2f7c649aeadec55dc378e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1b20cedb26cf4cfff1059a3460453a') in 0.025584 seconds
+  Import took 0.030398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/BiologyPack/Textures/Cell_5_Albedo.png
+  artifactKey: Guid(8d3e4032f03eec74fbbf5997c2835c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_5_Albedo.png using Guid(8d3e4032f03eec74fbbf5997c2835c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3587a0d4ff0f4f009039fb07061d8e2') in 0.025738 seconds
+  Import took 0.030633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/BiologyPack/Textures/Cell_4_Albedo.png
+  artifactKey: Guid(edb9a2fb3f15a7642849a3ece213ac9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_4_Albedo.png using Guid(edb9a2fb3f15a7642849a3ece213ac9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2670645479f47e4d6afdaa3e605f477') in 0.030931 seconds
+  Import took 0.035354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/BiologyPack/Textures/Cell_7_Normal.png
+  artifactKey: Guid(67f91490845f4f945a1b42f3b7f4654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_7_Normal.png using Guid(67f91490845f4f945a1b42f3b7f4654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ed1e0a116af6c7912bf9697c27b545') in 0.026779 seconds
+  Import took 0.031937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/BiologyPack/Textures/Cell_2_Albedo.png
+  artifactKey: Guid(27768c38dcceb5d409f6c8405ece352a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_2_Albedo.png using Guid(27768c38dcceb5d409f6c8405ece352a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9649a20484e722fcdb30a4f13513d371') in 0.025492 seconds
+  Import took 0.031727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/BiologyPack/Textures/Cell_1_Normal.png
+  artifactKey: Guid(7713809214a8a9e40a92dd62cc2611dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_1_Normal.png using Guid(7713809214a8a9e40a92dd62cc2611dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820823fc17d8fde39ca32c43c2a13b5b') in 0.030928 seconds
+  Import took 0.037566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/BiologyPack/Textures/Cell_6_Albedo.png
+  artifactKey: Guid(ab57b05b8e8dd3440ae93a3ca8ac3d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_6_Albedo.png using Guid(ab57b05b8e8dd3440ae93a3ca8ac3d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155d686d3cfd65d0dc68f4cbc63129f1') in 0.024245 seconds
+  Import took 0.029933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/BiologyPack/Textures/Cell_6_Specular.png
+  artifactKey: Guid(c0f373b2c59278d44a9b3913934152f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_6_Specular.png using Guid(c0f373b2c59278d44a9b3913934152f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4468894d481c4365b95c30b79aafe526') in 0.030177 seconds
+  Import took 0.035203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/BiologyPack/Textures/Cell_8_Specular.png
+  artifactKey: Guid(d3ddbafcf19ec6945828c27fa260572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_8_Specular.png using Guid(d3ddbafcf19ec6945828c27fa260572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e09c94e5dc0e997dc1aede8932bb3c3') in 0.022372 seconds
+  Import took 0.028414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/BiologyPack/Textures/Cell_8_Albedo.png
+  artifactKey: Guid(962684e8b7dd98e46a10842af065d4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_8_Albedo.png using Guid(962684e8b7dd98e46a10842af065d4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5175dc7ec2448f506a4a152670314630') in 0.022878 seconds
+  Import took 0.030390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_3_Specular.png
+  artifactKey: Guid(3325df1fc6389394fb38dbec7aa8353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_3_Specular.png using Guid(3325df1fc6389394fb38dbec7aa8353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587d0f3a657fd46e6fa5a196f5480852') in 0.026205 seconds
+  Import took 0.032282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_10_Specular.png
+  artifactKey: Guid(003161d5d7299a44e9b3bd1e65e9c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_10_Specular.png using Guid(003161d5d7299a44e9b3bd1e65e9c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0957ae102d4700f90a8d62f0feb76550') in 0.030699 seconds
+  Import took 0.038388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_11_Albedo.png
+  artifactKey: Guid(a7fc5f5046c5f3849949f3c39993299c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_11_Albedo.png using Guid(a7fc5f5046c5f3849949f3c39993299c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcf45e4fb2bc9d7492a2bc3eb5728e4') in 0.027001 seconds
+  Import took 0.031748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/BiologyPack/Textures/Cell_7_Specular.png
+  artifactKey: Guid(adb1a9aaad83f7446954de2ec946e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_7_Specular.png using Guid(adb1a9aaad83f7446954de2ec946e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d71892359a92068d214b1faeafee19') in 0.023508 seconds
+  Import took 0.028365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/BiologyPack/Textures/Cell_3_Albedo.png
+  artifactKey: Guid(d9cd24de8e0a87c40ad3b64891ffb65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_3_Albedo.png using Guid(d9cd24de8e0a87c40ad3b64891ffb65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edfdce0558fb5af8af12c2ffb345fd1') in 0.029112 seconds
+  Import took 0.036041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_15_Normal.png
+  artifactKey: Guid(d42fd59263d6ae740b09fa1ac6fd9018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_15_Normal.png using Guid(d42fd59263d6ae740b09fa1ac6fd9018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beda0accc522e172bef708250be7a28') in 0.025281 seconds
+  Import took 0.029704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_5_Specular.png
+  artifactKey: Guid(e8cc4446d95a13247ae0aae2292acfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_5_Specular.png using Guid(e8cc4446d95a13247ae0aae2292acfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9224a30a74785aa960358047900397') in 0.028971 seconds
+  Import took 0.035134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/BiologyPack/Textures/Cell_5_Specular.png
+  artifactKey: Guid(eb8103b59db88674bbf70a8d976a4e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_5_Specular.png using Guid(eb8103b59db88674bbf70a8d976a4e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935009e28a4726ef3f3661b434359352') in 0.020401 seconds
+  Import took 0.029330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_9_Specular.png
+  artifactKey: Guid(2f6494dbf4431a6498bd8c1397327f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_9_Specular.png using Guid(2f6494dbf4431a6498bd8c1397327f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cbf3150914ddf9220e9fe596fb0e17') in 0.024861 seconds
+  Import took 0.033328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001183 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_1_Normal.png
+  artifactKey: Guid(5d3f68b6ceab3be439d13805f956aa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_1_Normal.png using Guid(5d3f68b6ceab3be439d13805f956aa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c7d36778a1a8fe20702de0a845cb38') in 0.020140 seconds
+  Import took 0.024883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/BiologyPack/Textures/Cell_4_Specular.png
+  artifactKey: Guid(6d270e803a16d7d4998b0198c1602e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_4_Specular.png using Guid(6d270e803a16d7d4998b0198c1602e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b399d706f5e7f241fd860cfdb7d14694') in 0.022853 seconds
+  Import took 0.027885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BiologyPack/Textures/Cell_1_Albedo.png
+  artifactKey: Guid(c30178d53a8baef4fbe975c88abac30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_1_Albedo.png using Guid(c30178d53a8baef4fbe975c88abac30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a7d51d26bd42e884257a1e6533b0f9') in 0.026033 seconds
+  Import took 0.032334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001270 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_10_Albedo.png
+  artifactKey: Guid(be2f93f11562b9d4e8d3ff686b6df7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_10_Albedo.png using Guid(be2f93f11562b9d4e8d3ff686b6df7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2531cf12794e94705b9ba70235bbbd') in 0.028416 seconds
+  Import took 0.032953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_17_Albedo.png
+  artifactKey: Guid(b54a40520454515428994d84d14bb7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_17_Albedo.png using Guid(b54a40520454515428994d84d14bb7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612a92ba5d9630634984389772e71ec3') in 0.023282 seconds
+  Import took 0.028265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_13_Specular.png
+  artifactKey: Guid(12c7432314f1220439a9bf9f1a181f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_13_Specular.png using Guid(12c7432314f1220439a9bf9f1a181f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a21c7fcd665fc50d9d4b0c9b258cb') in 0.024987 seconds
+  Import took 0.032626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_3_Normal.png
+  artifactKey: Guid(50d75eb840fb6994eb6556a0f450d45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_3_Normal.png using Guid(50d75eb840fb6994eb6556a0f450d45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5456be522bdcd528a394196e4d624a7e') in 0.028414 seconds
+  Import took 0.035131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_6_Specular.png
+  artifactKey: Guid(ef0e003c4b0b5f248a38bb2a250b9b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_6_Specular.png using Guid(ef0e003c4b0b5f248a38bb2a250b9b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c4aeeae1de3ea9537da4d84ed00718') in 0.020718 seconds
+  Import took 0.026858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_19_Normal.png
+  artifactKey: Guid(2348e53db93bc364698b02afc5c96209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_19_Normal.png using Guid(2348e53db93bc364698b02afc5c96209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c46fd4f7d5d9f9c6dc7bde9b7e22676') in 0.022530 seconds
+  Import took 0.027478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/BiologyPack/Textures/Cell_6_Normal.png
+  artifactKey: Guid(5bda28bdd9c79a649a97e51d80da5894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_6_Normal.png using Guid(5bda28bdd9c79a649a97e51d80da5894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f287cfee221bb8f4c87dcb8ed9eda4') in 0.026441 seconds
+  Import took 0.032008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_8_Specular.png
+  artifactKey: Guid(6c255bbb1ad00434bbd7a354c232e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_8_Specular.png using Guid(6c255bbb1ad00434bbd7a354c232e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ea7b5f0053ad9d6cf044447fef35e1') in 0.030103 seconds
+  Import took 0.035966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001086 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_4_Normal.png
+  artifactKey: Guid(736e198057c31004fa5b8ba1938b7a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_4_Normal.png using Guid(736e198057c31004fa5b8ba1938b7a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007a4fa2ed7ab8ff5bf61b8a077f9be4') in 0.018860 seconds
+  Import took 0.025218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_15_Specular.png
+  artifactKey: Guid(bad07c7041136a84cb512b1705b3af7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_15_Specular.png using Guid(bad07c7041136a84cb512b1705b3af7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242e9aaaf7dce2c2ffb25018630d3329') in 0.029315 seconds
+  Import took 0.033557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/BiologyPack/Textures/Cell_5_Normal.png
+  artifactKey: Guid(3679dcc4b7f195e47aaa52b11e9e71a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_5_Normal.png using Guid(3679dcc4b7f195e47aaa52b11e9e71a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d78f856acb35170771dc6a283b45999') in 0.025891 seconds
+  Import took 0.034061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_17_Normal.png
+  artifactKey: Guid(f7e9c5f7291a4614dba5e76e961b5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_17_Normal.png using Guid(f7e9c5f7291a4614dba5e76e961b5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a97b7f1ebc4c527dcf57080853762e') in 0.026394 seconds
+  Import took 0.031085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/BiologyPack/Textures/Cell_2_Specular.png
+  artifactKey: Guid(b5cddda2c787b1c4c8cba737152042bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_2_Specular.png using Guid(b5cddda2c787b1c4c8cba737152042bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854a74d38a70468890af9bfb38369203') in 0.020530 seconds
+  Import took 0.026385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_16_Albedo.png
+  artifactKey: Guid(0f8df3dca00bae9499283d7764dc2f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_16_Albedo.png using Guid(0f8df3dca00bae9499283d7764dc2f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352c04cee045871bc4e15bdb72a94031') in 0.020078 seconds
+  Import took 0.026550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/BiologyPack/Textures/Cell_3_Specular.png
+  artifactKey: Guid(fdd6b63d44c847f48ba1c65b0c3edd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_3_Specular.png using Guid(fdd6b63d44c847f48ba1c65b0c3edd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4021d18fb7ab831c04c901e1e52ec479') in 0.024028 seconds
+  Import took 0.028670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/BiologyPack/Textures/Bacteria_2_Specular.png
+  artifactKey: Guid(e9f6dc9280ef33f4bbff34e0b07af7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Bacteria_2_Specular.png using Guid(e9f6dc9280ef33f4bbff34e0b07af7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8974a75500416aa6dfe02d74a0b2d08e') in 0.018698 seconds
+  Import took 0.025499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.022031 seconds.
+  path: Assets/Folder
+  artifactKey: Guid(ea000da2554961c4a9638f99701ca872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Folder using Guid(ea000da2554961c4a9638f99701ca872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61dfc9a6879638e9c00be35f1cda9c7') in 0.017063 seconds
+  Import took 0.023870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006098 seconds.
+  path: Assets/Folder
+  artifactKey: Guid(ea000da2554961c4a9638f99701ca872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Folder using Guid(ea000da2554961c4a9638f99701ca872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61dfc9a6879638e9c00be35f1cda9c7') in 0.004572 seconds
+  Import took 0.010928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.471170 seconds.
+  path: Assets/BiologyPack/Textures/Cell_9_Normal.png
+  artifactKey: Guid(c697750cd9bccbf4abaa96334cd17ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_9_Normal.png using Guid(c697750cd9bccbf4abaa96334cd17ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89420acc3027d0eb8f8806ab182fb26e') in 0.025059 seconds
+  Import took 0.033635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/BiologyPack/Textures/Chromosome_X_Specular.png
+  artifactKey: Guid(4471afb1a8b6d4949a58433819352552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Chromosome_X_Specular.png using Guid(4471afb1a8b6d4949a58433819352552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49389a616c4a105a6dcbb5e1c97adce6') in 0.028523 seconds
+  Import took 0.036815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/BiologyPack/Textures/DNA_Specular.png
+  artifactKey: Guid(8ff6f95fe5a0a9740adc59f6a5bd1e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/DNA_Specular.png using Guid(8ff6f95fe5a0a9740adc59f6a5bd1e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716782ab134fa970384c7b12ef526947') in 0.021219 seconds
+  Import took 0.030075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_3_Albedo.png
+  artifactKey: Guid(93471dbdbbd1e1540b3bec009b25386f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_3_Albedo.png using Guid(93471dbdbbd1e1540b3bec009b25386f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888ef5e872927129cfaed0ca72a00b98') in 0.026294 seconds
+  Import took 0.035326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_2_Albedo.png
+  artifactKey: Guid(328d339ed19d86040af5b9f0bed8da46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_2_Albedo.png using Guid(328d339ed19d86040af5b9f0bed8da46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f7ee80d9e4ba40dd6a9102615eda9e') in 0.022453 seconds
+  Import took 0.029129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/BiologyPack/Textures/DNA_Normal.png
+  artifactKey: Guid(90aadc91aee56a3499bbeb13770287ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/DNA_Normal.png using Guid(90aadc91aee56a3499bbeb13770287ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92feeee529a5e5858082ad83e9f6179') in 0.027206 seconds
+  Import took 0.037326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/BiologyPack/Textures/Cell_9_Specular.png
+  artifactKey: Guid(e4fc27e905836614a84f56d5fe815694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_9_Specular.png using Guid(e4fc27e905836614a84f56d5fe815694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14cef5c43d82ff0994707b38846077c') in 0.025829 seconds
+  Import took 0.034376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_4_Albedo.png
+  artifactKey: Guid(577f02c90ec654a4aa9aecbec0e118e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_4_Albedo.png using Guid(577f02c90ec654a4aa9aecbec0e118e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115ade5ef24dffd9aa5bc701f10fcc9a') in 0.023666 seconds
+  Import took 0.029885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/BiologyPack/Textures/Cell_10_Specular.png
+  artifactKey: Guid(265dd95ca0eb5b4488ef7ba6110b2824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_10_Specular.png using Guid(265dd95ca0eb5b4488ef7ba6110b2824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9186a843039073614e4dee7ec3043925') in 0.027375 seconds
+  Import took 0.033376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/BiologyPack/Textures/Cell_9_Normal.png
+  artifactKey: Guid(c697750cd9bccbf4abaa96334cd17ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_9_Normal.png using Guid(c697750cd9bccbf4abaa96334cd17ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89420acc3027d0eb8f8806ab182fb26e') in 0.011687 seconds
+  Import took 0.018669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/BiologyPack/Textures/Chromosome_Y_Specular.png
+  artifactKey: Guid(59cc47c5b1e8867489b136315bddbb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Chromosome_Y_Specular.png using Guid(59cc47c5b1e8867489b136315bddbb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f853f40ef06d5f8d3fe074e804dcfee') in 0.022635 seconds
+  Import took 0.031542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/BiologyPack/Textures/Cell_10_Albedo.png
+  artifactKey: Guid(1445f49e98911f540949d531c7559820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_10_Albedo.png using Guid(1445f49e98911f540949d531c7559820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255d889fe8409fba3c9adaca6f6eff66') in 0.021409 seconds
+  Import took 0.027360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/BiologyPack/Textures/Virus_1_Specular.png
+  artifactKey: Guid(2f16b4c83d8769d4b8a3180a4179f5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_1_Specular.png using Guid(2f16b4c83d8769d4b8a3180a4179f5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3429f1e9e9ecc6ea2440d1e3ea30f471') in 0.025552 seconds
+  Import took 0.033351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/BiologyPack/Textures/RedBloodCell_Albedo.png
+  artifactKey: Guid(f8f622382a65a244fa24aecbc07e1c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/RedBloodCell_Albedo.png using Guid(f8f622382a65a244fa24aecbc07e1c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd651f782fd182ef3e05029354a1359') in 0.023195 seconds
+  Import took 0.029555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/BiologyPack/Textures/Virus_2_Normal.png
+  artifactKey: Guid(f2230d4521d0c194280d3221e50fa7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_2_Normal.png using Guid(f2230d4521d0c194280d3221e50fa7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8b6938b91f193b6d0962350b798abe') in 0.026308 seconds
+  Import took 0.033236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BiologyPack/Textures/NanoBot_Albedo.png
+  artifactKey: Guid(d2005606c38db7747beaa17479e6b115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/NanoBot_Albedo.png using Guid(d2005606c38db7747beaa17479e6b115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c79ca6954bbb097935dbfdcb121cc5a') in 0.037075 seconds
+  Import took 0.043998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/BiologyPack/Textures/Virus_3_Specular.png
+  artifactKey: Guid(d55096877db4a4942acfd92fe5593aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_3_Specular.png using Guid(d55096877db4a4942acfd92fe5593aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bd805b47712c69f9844fbd938b4072') in 0.022955 seconds
+  Import took 0.030922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/BiologyPack/Textures/Virus_8_Specular.png
+  artifactKey: Guid(43dc5d136a2a11f4a8adb6ceba62d196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_8_Specular.png using Guid(43dc5d136a2a11f4a8adb6ceba62d196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d90b9db85af408a54911be7ff15929') in 0.023325 seconds
+  Import took 0.029579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/BiologyPack/Textures/Virus_1_Normal.png
+  artifactKey: Guid(d689b79b3ffe4b54d8e5ac7475e0931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_1_Normal.png using Guid(d689b79b3ffe4b54d8e5ac7475e0931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b267bccf4f95ee18e3f67d37266d20') in 0.023224 seconds
+  Import took 0.029919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/BiologyPack/Textures/Virus_6_Albedo.png
+  artifactKey: Guid(dac7c45dabb6cb5469b3ca300b77faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_6_Albedo.png using Guid(dac7c45dabb6cb5469b3ca300b77faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4482e3ad2ac272f5bccec50339c0ad9f') in 0.023062 seconds
+  Import took 0.031148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/BiologyPack/Textures/NanoBot_Emissive.png
+  artifactKey: Guid(2edb2416629ad7d4996f089f78385be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/NanoBot_Emissive.png using Guid(2edb2416629ad7d4996f089f78385be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bc60e1a344b7486ed8712c5e1b1705') in 0.020001 seconds
+  Import took 0.026394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/BiologyPack/Textures/Virus_6_Specular.png
+  artifactKey: Guid(0ec2130ed0b82cb4ba2dd8695b46566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_6_Specular.png using Guid(0ec2130ed0b82cb4ba2dd8695b46566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74690fdc210966816e42e66eca34b62') in 0.021919 seconds
+  Import took 0.031106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/BiologyPack/Textures/Virus_2_Albedo.png
+  artifactKey: Guid(0fea5b351d1535844921fee135efb68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_2_Albedo.png using Guid(0fea5b351d1535844921fee135efb68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b581f152ddbdb9398930f303307ded') in 0.023076 seconds
+  Import took 0.028837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/BiologyPack/Textures/Virus_9_Albedo.png
+  artifactKey: Guid(1a812c4aa1d33d4439ec23b7bed101e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_9_Albedo.png using Guid(1a812c4aa1d33d4439ec23b7bed101e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c955634a245675def32680e5e21a1eb8') in 0.022172 seconds
+  Import took 0.029237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/BiologyPack/Textures/Virus_10_Normal.png
+  artifactKey: Guid(f3a1a0760faf7ba42be57b9e99af985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_10_Normal.png using Guid(f3a1a0760faf7ba42be57b9e99af985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf7cd68dba78fe785583346b2c8785d') in 0.024490 seconds
+  Import took 0.033295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/BiologyPack/Textures/Virus_9_Specular.png
+  artifactKey: Guid(84c1dc4e2569ec743a589e3bc5cf6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_9_Specular.png using Guid(84c1dc4e2569ec743a589e3bc5cf6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d58e20c54ffbe97bae4b69096a0faa') in 0.022935 seconds
+  Import took 0.031553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/BiologyPack/Textures/Sperm_Specular.png
+  artifactKey: Guid(c4034fc8e982c9f49ae88270977cbb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Sperm_Specular.png using Guid(c4034fc8e982c9f49ae88270977cbb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531322ccb48288d4039885350ef10eed') in 0.022350 seconds
+  Import took 0.029062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/BiologyPack/Textures/Virus_6_Normal.png
+  artifactKey: Guid(b31771b89da7e8940a2c58f5a8985bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_6_Normal.png using Guid(b31771b89da7e8940a2c58f5a8985bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fae494388be7d43acab226caf63f01') in 0.025786 seconds
+  Import took 0.032628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/BiologyPack/Textures/NanoBot_Normal.png
+  artifactKey: Guid(3e00540d28a348946968057dc36eabcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/NanoBot_Normal.png using Guid(3e00540d28a348946968057dc36eabcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70009646c2403a7490aa1443de0a4249') in 0.027288 seconds
+  Import took 0.035964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/BiologyPack/Textures/Chromosome_X_Albedo.png
+  artifactKey: Guid(9b5a5bd4245385e499a2ba6b100f58b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Chromosome_X_Albedo.png using Guid(9b5a5bd4245385e499a2ba6b100f58b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd98685231c3c64b30e7e19326fb388') in 0.026621 seconds
+  Import took 0.035297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/BiologyPack/Textures/Sperm_Albedo.png
+  artifactKey: Guid(f154630b930c59a4ca3a5812921a5f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Sperm_Albedo.png using Guid(f154630b930c59a4ca3a5812921a5f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed0351ac27c8e7f0098355bdf34e6fa') in 0.026289 seconds
+  Import took 0.033030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/BiologyPack/Textures/Virus_8_Normal.png
+  artifactKey: Guid(752d5eb3646943d418ad39193815b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_8_Normal.png using Guid(752d5eb3646943d418ad39193815b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dfebc983ab1c5f54d646b5082c1893') in 0.026147 seconds
+  Import took 0.034306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/BiologyPack/Textures/Chromosome_Y_Normal.png
+  artifactKey: Guid(3fbb12690af932e4a9e90808e15b790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Chromosome_Y_Normal.png using Guid(3fbb12690af932e4a9e90808e15b790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a8aa1338e213ab83eae51e5c892e77') in 0.026949 seconds
+  Import took 0.033491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/BiologyPack/Textures/Sperm_Normal.png
+  artifactKey: Guid(c17c3a2f580b37a4182ae585ee42bfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Sperm_Normal.png using Guid(c17c3a2f580b37a4182ae585ee42bfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b5622cccbead25397987e73e9e1aa0') in 0.024466 seconds
+  Import took 0.031502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_1_Specular.png
+  artifactKey: Guid(ee129169c86560b4b800eff6c8481718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_1_Specular.png using Guid(ee129169c86560b4b800eff6c8481718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2cf65bd52f468549ed5d712f4b483d') in 0.036908 seconds
+  Import took 0.045542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/BiologyPack/Textures/Chromosome_Y_Albedo.png
+  artifactKey: Guid(b77b1cfad0397e8419f962ef131d97e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Chromosome_Y_Albedo.png using Guid(b77b1cfad0397e8419f962ef131d97e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f9cf953c3c1b8ab0f84c0a3f3f9d7f') in 0.026023 seconds
+  Import took 0.033174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/BiologyPack/Textures/Virus_5_Specular.png
+  artifactKey: Guid(c2f41180a7ddf164f8b9fdda7fae748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_5_Specular.png using Guid(c2f41180a7ddf164f8b9fdda7fae748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc8c5e4bc1b148cba728dfca8325690') in 0.024331 seconds
+  Import took 0.035114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/BiologyPack/Textures/Virus_5_Normal.png
+  artifactKey: Guid(d0a5858e2ff657242b249b76e9dab42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_5_Normal.png using Guid(d0a5858e2ff657242b249b76e9dab42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625d60c1d1d5f04142b7cd37dda28cc0') in 0.025560 seconds
+  Import took 0.031874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/BiologyPack/Textures/Cell_10_Normal.png
+  artifactKey: Guid(57a8d17c96530f942ad3072e7ad04db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Cell_10_Normal.png using Guid(57a8d17c96530f942ad3072e7ad04db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3933edf2be385ca72f6e42d0ee8cb3bc') in 0.029319 seconds
+  Import took 0.037232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/BiologyPack/Textures/Virus_10_Specular.png
+  artifactKey: Guid(153a776f2eb040d4cb06eb19b3d77ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_10_Specular.png using Guid(153a776f2eb040d4cb06eb19b3d77ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c3d90bc8df65bfdda83f79e93aeb57') in 0.025965 seconds
+  Import took 0.033009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_4_Specular.png
+  artifactKey: Guid(27d4685ab2976504ab4b703368e674a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_4_Specular.png using Guid(27d4685ab2976504ab4b703368e674a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff42739345c5bb37f353a06454f713d8') in 0.024637 seconds
+  Import took 0.030655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/BiologyPack/Textures/Virus_8_Albedo.png
+  artifactKey: Guid(fe98fffa42d78474c86f424f6c85fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_8_Albedo.png using Guid(fe98fffa42d78474c86f424f6c85fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d409f71b0fd589d0cc01498d24fa9b9') in 0.021308 seconds
+  Import took 0.028509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/BiologyPack/Textures/NanoBot_Specular.png
+  artifactKey: Guid(db7606a607e01e343802447194287584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/NanoBot_Specular.png using Guid(db7606a607e01e343802447194287584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480c9108868b1c00372e91cb5531ecec') in 0.023429 seconds
+  Import took 0.030975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_1_Normal.png
+  artifactKey: Guid(55fa5d673da20bb479aba84997087715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_1_Normal.png using Guid(55fa5d673da20bb479aba84997087715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda14ed8ce96b11c4cd3e7c40199809d') in 0.022262 seconds
+  Import took 0.029601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/BiologyPack/Textures/Virus_7_Albedo.png
+  artifactKey: Guid(10632389cb02c564cbf5099ba3c58c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_7_Albedo.png using Guid(10632389cb02c564cbf5099ba3c58c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52fb370ef4e3e555cb64a35c45d8476') in 0.033533 seconds
+  Import took 0.040369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/BiologyPack/Textures/Virus_7_Normal.png
+  artifactKey: Guid(e26231914bc99264490e644ad57cabba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_7_Normal.png using Guid(e26231914bc99264490e644ad57cabba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3617ca455e95a2e207808f23d738492c') in 0.025158 seconds
+  Import took 0.031961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BiologyPack/Textures/RedBloodCell_Normal.png
+  artifactKey: Guid(b375ac3ee78b28842b797a4c641f5aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/RedBloodCell_Normal.png using Guid(b375ac3ee78b28842b797a4c641f5aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb7a81e17785513558a80a2edc93fb9') in 0.024302 seconds
+  Import took 0.030374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/BiologyPack/Textures/RedBloodCell_Specular.png
+  artifactKey: Guid(fa72fec2642ecc445860117efd00d431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/RedBloodCell_Specular.png using Guid(fa72fec2642ecc445860117efd00d431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd320c0aca5a9df2f4cfc93d29a5f7e7') in 0.025308 seconds
+  Import took 0.034584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/BiologyPack/Textures/Virus_1_Albedo.png
+  artifactKey: Guid(13b8ee2cf4c23b9489876e6c02abafb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_1_Albedo.png using Guid(13b8ee2cf4c23b9489876e6c02abafb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d10be4af72c6ab927a54c72289d813') in 0.022816 seconds
+  Import took 0.030096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/BiologyPack/Textures/Virus_3_Normal.png
+  artifactKey: Guid(c28a390098cbdf04ab65c238c172d5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_3_Normal.png using Guid(c28a390098cbdf04ab65c238c172d5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3fb148a58e624e344e41d5060282a4') in 0.024399 seconds
+  Import took 0.031440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_3_Specular.png
+  artifactKey: Guid(03c8635326a457d4a87e89fdd97ea5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_3_Specular.png using Guid(03c8635326a457d4a87e89fdd97ea5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f6975792324a5833245f6d341b9d74') in 0.025981 seconds
+  Import took 0.033462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000727 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_1_Albedo.png
+  artifactKey: Guid(f201c7a316212854d908fa7d17dfdac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_1_Albedo.png using Guid(f201c7a316212854d908fa7d17dfdac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c03c99139861b1970168036282fd74') in 0.026777 seconds
+  Import took 0.036848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/BiologyPack/Textures/Virus_4_Albedo.png
+  artifactKey: Guid(bd95228c84a3b394b8ffb6b4c28139b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_4_Albedo.png using Guid(bd95228c84a3b394b8ffb6b4c28139b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052f3aaaed2ec8f3cfb174a206c76412') in 0.028924 seconds
+  Import took 0.035837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/BiologyPack/Textures/Virus_2_Specular.png
+  artifactKey: Guid(d43195abd5cc8864f81cb88bb2b0b3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_2_Specular.png using Guid(d43195abd5cc8864f81cb88bb2b0b3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d0d70dd072934c942b06a9be4f68fe') in 0.023131 seconds
+  Import took 0.031034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/BiologyPack/Textures/Virus_5_Albedo.png
+  artifactKey: Guid(928cd947a3d07e144bf68e49e5b6919f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_5_Albedo.png using Guid(928cd947a3d07e144bf68e49e5b6919f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97f8a3577be94b17e4cdc08bd94dc39') in 0.026605 seconds
+  Import took 0.034065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/BiologyPack/Textures/Virus_10_Albedo.png
+  artifactKey: Guid(7f9194b0bc8fc344d8b9a190e882bd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_10_Albedo.png using Guid(7f9194b0bc8fc344d8b9a190e882bd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832cd6b38f5e348efd783ead4058772d') in 0.027914 seconds
+  Import took 0.034206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/BiologyPack/Textures/Virus_4_Normal.png
+  artifactKey: Guid(7296e2604ff951a41b7ec6f89caf13c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_4_Normal.png using Guid(7296e2604ff951a41b7ec6f89caf13c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6e8b187aebd757ef7182393b0015eb') in 0.026262 seconds
+  Import took 0.040379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/BiologyPack/Textures/Chromosome_X_Normal.png
+  artifactKey: Guid(f8d216f8fc8d08e498645dfdda7cb6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Chromosome_X_Normal.png using Guid(f8d216f8fc8d08e498645dfdda7cb6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3532ad7d1dbe8883f1b938397b641f2b') in 0.035502 seconds
+  Import took 0.044972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_4_Normal.png
+  artifactKey: Guid(5dd105fca816ff047825532abfec6d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_4_Normal.png using Guid(5dd105fca816ff047825532abfec6d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575e85f18ed7d38ec449ea7d56111d6b') in 0.028380 seconds
+  Import took 0.035552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/BiologyPack/Textures/Virus_9_Normal.png
+  artifactKey: Guid(af58fb1e69c4f9c409b5c430593bc673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_9_Normal.png using Guid(af58fb1e69c4f9c409b5c430593bc673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c326cb0bc974b5ba00bf795ce66b504') in 0.028513 seconds
+  Import took 0.038467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/BiologyPack/Textures/Virus_4_Specular.png
+  artifactKey: Guid(86cbe65d11770cd4f91b6993a45ebce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_4_Specular.png using Guid(86cbe65d11770cd4f91b6993a45ebce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2007b4c5157cfcf78615c06b2f83071d') in 0.019823 seconds
+  Import took 0.026646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_2_Specular.png
+  artifactKey: Guid(dcdf7aec2fcd7ea4f8c7ef3035cc4b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_2_Specular.png using Guid(dcdf7aec2fcd7ea4f8c7ef3035cc4b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5950f6f67d1eb7163e90bd7876b705') in 0.023189 seconds
+  Import took 0.032574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000863 seconds.
+  path: Assets/BiologyPack/Textures/Virus_7_Specular.png
+  artifactKey: Guid(854735da6f82e1a428fa7225fe17b64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_7_Specular.png using Guid(854735da6f82e1a428fa7225fe17b64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f42e42d2d7314a3de4926021d4161c') in 0.025840 seconds
+  Import took 0.033300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/BiologyPack/Textures/DNA_Albedo.png
+  artifactKey: Guid(f2fc9e312982a8f4ba31ca511fc0363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/DNA_Albedo.png using Guid(f2fc9e312982a8f4ba31ca511fc0363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6458cd3523bab5a692d55d91570c886e') in 0.033355 seconds
+  Import took 0.041273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_2_Normal.png
+  artifactKey: Guid(ded02667ab727ea4eb22de1533ec703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_2_Normal.png using Guid(ded02667ab727ea4eb22de1533ec703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981e6d214dd7051cfdd21f50d3ce6957') in 0.027494 seconds
+  Import took 0.034620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/BiologyPack/Textures/Molecule_3_Normal.png
+  artifactKey: Guid(5981668213f76af4bb16a110b548df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Molecule_3_Normal.png using Guid(5981668213f76af4bb16a110b548df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b513005e9c8b7b9931c3125238d3dc5') in 0.029564 seconds
+  Import took 0.034434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/BiologyPack/Textures/Virus_3_Albedo.png
+  artifactKey: Guid(a26949999540fba4b8e867ed2976fb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Textures/Virus_3_Albedo.png using Guid(a26949999540fba4b8e867ed2976fb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525f9e35d4c0d2e88436988b59d54dd5') in 0.026090 seconds
+  Import took 0.033536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.488612 seconds.
+  path: Assets/Folder/Virus_4.mat
+  artifactKey: Guid(0aea599481bd6fe48a87542e126686ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Folder/Virus_4.mat using Guid(0aea599481bd6fe48a87542e126686ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5182da12a37fb1a16c0b62086aaf4585') in 0.042678 seconds
+  Import took 0.047846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.856096 seconds.
+  path: Assets/BiologyPack/Background.mat
+  artifactKey: Guid(d4a0890931d0fd44eaccf5436fac30d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Background.mat using Guid(d4a0890931d0fd44eaccf5436fac30d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cd2490f250d41f5c0a09544109ccda') in 0.085877 seconds
+  Import took 0.093512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BiologyPack/Particle.mat
+  artifactKey: Guid(b07cc13e7f8f07e4e80603427c5a2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Particle.mat using Guid(b07cc13e7f8f07e4e80603427c5a2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33760989b85474838236061762d4a96') in 0.019177 seconds
+  Import took 0.026110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/BiologyPack/Shield.mat
+  artifactKey: Guid(2d5025326606db24db5ff4e4a19087ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Shield.mat using Guid(2d5025326606db24db5ff4e4a19087ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06537a5ae2eab832f91b2e9626c3298') in 0.031068 seconds
+  Import took 0.038953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/BiologyPack/Bullet.mat
+  artifactKey: Guid(03ed6ba1f1d8c064fa64310df2125f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Bullet.mat using Guid(03ed6ba1f1d8c064fa64310df2125f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd815df65cebece363df889e1bbd71a28') in 0.028116 seconds
+  Import took 0.037522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/BiologyPack/Shield.mat
+  artifactKey: Guid(2d5025326606db24db5ff4e4a19087ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiologyPack/Shield.mat using Guid(2d5025326606db24db5ff4e4a19087ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06537a5ae2eab832f91b2e9626c3298') in 0.013784 seconds
+  Import took 0.022681 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011583 seconds.
+Registered in 0.008827 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.988 seconds
+- Completed reload, in  3.155 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2035.
-Total: 3.277700 ms (FindLiveObjects: 0.434000 ms CreateObjectMapping: 0.138400 ms MarkObjects: 2.671600 ms  DeleteObjects: 0.031500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2035.
+Total: 3.757700 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.093600 ms MarkObjects: 3.222600 ms  DeleteObjects: 0.096600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 375.886073 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05b9790b4f35d8383fd195cb831c8de') in 0.046442 seconds
+  Import took 0.058141 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009240 seconds.
+Registered in 0.014150 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.160 seconds
+- Completed reload, in  3.105 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2037.
-Total: 3.614300 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.093400 ms MarkObjects: 3.230600 ms  DeleteObjects: 0.030000 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 3.891800 ms (FindLiveObjects: 0.274600 ms CreateObjectMapping: 0.078900 ms MarkObjects: 3.471900 ms  DeleteObjects: 0.063500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1326.412766 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2171d5ff4ab327fc50723dc0477f6923') in 0.009171 seconds
+  Import took 0.016793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001463 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2171d5ff4ab327fc50723dc0477f6923') in 0.006163 seconds
+  Import took 0.016708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.516976 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ba31a379f89771098e7c9fe06ab076') in 0.008695 seconds
+  Import took 0.023226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003694 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ba31a379f89771098e7c9fe06ab076') in 0.007659 seconds
+  Import took 0.013528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.942045 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7419b37ef7167c5ea27dfb283d2f02f3') in 0.004911 seconds
+  Import took 0.009623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.150755 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7464d498ba3ec0975e9549b206f07b60') in 0.012090 seconds
+  Import took 0.021802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.557481 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a82cdf51ff7fdec74b82cda3658f550') in 0.005524 seconds
+  Import took 0.015783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.659412 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbd03d1737cd5347c4d09cb1bb02b53') in 0.008228 seconds
+  Import took 0.017017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.704095 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9f9d23053b3ea118aaa807c15ce17a') in 0.006158 seconds
+  Import took 0.015430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.046463 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43387db251c94f6504d1524c4421c4e') in 0.005570 seconds
+  Import took 0.014893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.929651 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30444134b32e0e0e9a810858166637a2') in 0.007126 seconds
+  Import took 0.016545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.709196 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f1f35d8c491da383c41fa8fff8f42c') in 0.005531 seconds
+  Import took 0.016196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.708530 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3207b53727b7d50ac5725baf58d64216') in 0.007691 seconds
+  Import took 0.017139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.931663 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c539e2687829e7db7926e4308317f7') in 0.010690 seconds
+  Import took 0.018638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.849165 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00422c68b3407d92a672c9ec28eee745') in 0.006279 seconds
+  Import took 0.089075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.152559 seconds.
+  path: Assets/Script/Monster.cs
+  artifactKey: Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Monster.cs using Guid(c34f8d412dbc810488f309799a946464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf173e1093cc53c25e61044e1a77334') in 0.007737 seconds
+  Import took 0.016981 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009642 seconds.
+Registered in 0.009263 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.312 seconds
+- Completed reload, in  1.669 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2039.
-Total: 3.367300 ms (FindLiveObjects: 0.246100 ms CreateObjectMapping: 0.068300 ms MarkObjects: 3.025700 ms  DeleteObjects: 0.025500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2040.
+Total: 3.119400 ms (FindLiveObjects: 0.198000 ms CreateObjectMapping: 0.059500 ms MarkObjects: 2.834400 ms  DeleteObjects: 0.025500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.574371 seconds.
+  path: Assets/Object/Monster_2.prefab
+  artifactKey: Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_2.prefab using Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdd24458578e6c0818e8d84a27df83d') in 0.174367 seconds
+  Import took 0.184576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.839804 seconds.
+  path: Assets/Object/Monster_2.prefab
+  artifactKey: Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_2.prefab using Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0004a7fc1070156ef433fbee81199e3') in 0.031095 seconds
+  Import took 0.037988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.164581 seconds.
+  path: Assets/Object/Monster_2.prefab
+  artifactKey: Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_2.prefab using Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d54055780cf918e7dfa407bba3cc48') in 0.030401 seconds
+  Import took 0.036828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.957373 seconds.
+  path: Assets/Object/Monster_2.prefab
+  artifactKey: Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_2.prefab using Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d260e754e32a3bff1daaee1a394f56') in 0.027870 seconds
+  Import took 0.033968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.222346 seconds.
+  path: Assets/Object/Monster_2.prefab
+  artifactKey: Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_2.prefab using Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b807a8d7a3f24194465eeb0cd191b3b') in 0.029025 seconds
+  Import took 0.038149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.054837 seconds.
+  path: Assets/Object/Monster_2.prefab
+  artifactKey: Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Monster_2.prefab using Guid(f8c603cbd24081c42bc5e61b9d574479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c815e65584aa8a70b5c178083b93ae35') in 0.035656 seconds
+  Import took 0.042263 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006954 seconds.
+Registered in 0.011429 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.313 seconds
+- Completed reload, in  2.912 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2041.
-Total: 5.948200 ms (FindLiveObjects: 0.406600 ms CreateObjectMapping: 0.154600 ms MarkObjects: 5.337600 ms  DeleteObjects: 0.046500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007264 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.936 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2043.
-Total: 4.463600 ms (FindLiveObjects: 0.191400 ms CreateObjectMapping: 0.056100 ms MarkObjects: 4.172200 ms  DeleteObjects: 0.041200 ms)
+Total: 3.533400 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.081100 ms MarkObjects: 3.162900 ms  DeleteObjects: 0.044600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008093 seconds.
+Registered in 0.014111 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.164 seconds
+- Completed reload, in  3.070 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2045.
-Total: 2.895200 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.156600 ms MarkObjects: 2.398800 ms  DeleteObjects: 0.025800 ms)
+Total: 3.862000 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.079100 ms MarkObjects: 3.500400 ms  DeleteObjects: 0.038700 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 114.630795 seconds.
-  path: Assets/Script/Player.cs
-  artifactKey: Guid(f3261c72c96084944bb611c21d2276fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Player.cs using Guid(f3261c72c96084944bb611c21d2276fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441407e1618326ede6666a4891024316') in 0.015727 seconds
-  Import took 0.021239 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.078 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 3.615600 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.074100 ms MarkObjects: 3.245400 ms  DeleteObjects: 0.037900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.057240 seconds.
-  path: Assets/Script/Player.cs
-  artifactKey: Guid(f3261c72c96084944bb611c21d2276fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Player.cs using Guid(f3261c72c96084944bb611c21d2276fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441407e1618326ede6666a4891024316') in 0.010839 seconds
-  Import took 0.016617 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011336 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.069 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2049.
+Total: 3.390200 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.079500 ms MarkObjects: 3.039300 ms  DeleteObjects: 0.032800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.210 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 9.757600 ms (FindLiveObjects: 3.863100 ms CreateObjectMapping: 0.182100 ms MarkObjects: 5.666700 ms  DeleteObjects: 0.041800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2053.
+Total: 5.307100 ms (FindLiveObjects: 0.258100 ms CreateObjectMapping: 0.080200 ms MarkObjects: 4.914400 ms  DeleteObjects: 0.050900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 10.085800 ms (FindLiveObjects: 0.549600 ms CreateObjectMapping: 0.488700 ms MarkObjects: 8.963600 ms  DeleteObjects: 0.078100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.441 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2057.
+Total: 8.117700 ms (FindLiveObjects: 0.462000 ms CreateObjectMapping: 0.251700 ms MarkObjects: 7.352300 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2059.
+Total: 8.868100 ms (FindLiveObjects: 0.556400 ms CreateObjectMapping: 0.256800 ms MarkObjects: 7.964800 ms  DeleteObjects: 0.084500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.974 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2061.
+Total: 5.870100 ms (FindLiveObjects: 0.396300 ms CreateObjectMapping: 0.137400 ms MarkObjects: 5.265200 ms  DeleteObjects: 0.066600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.281 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2063.
+Total: 7.962500 ms (FindLiveObjects: 0.432800 ms CreateObjectMapping: 0.161300 ms MarkObjects: 7.247500 ms  DeleteObjects: 0.116600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

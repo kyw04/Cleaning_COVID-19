@@ -6,9 +6,12 @@ public class Spawn : MonoBehaviour
 {
     public GameObject[] entity;
     public float[] time;
+    private Ability player_ability;
+    private int spawn = 0;
 
     void Start()
     {
+        player_ability = GameObject.Find("Player").GetComponent<Ability>();
         StartCoroutine("Spawner", 0);
         StartCoroutine("Spawner", 2);
     }
@@ -19,6 +22,14 @@ public class Spawn : MonoBehaviour
             StopCoroutine("Spawner");
         if (Input.GetKeyDown(KeyCode.X))
             StartCoroutine("Spawner", 1);
+
+        if (player_ability.score >= 150 && spawn == 0)
+        {
+            spawn++;
+            Instantiate(entity[1], RandomPos(), transform.rotation);
+            StartCoroutine("Spawner", 3);
+        }
+
     }
 
     IEnumerator Spawner(int index)
