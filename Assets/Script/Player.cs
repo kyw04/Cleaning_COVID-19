@@ -2,41 +2,72 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public GameObject bullet;
+    public GameObject unit;
+    public Image unit_magazine;
+    public Text unit_txt;
     private Ability ability;
     private float Xmove;
     private float Ymove;
     private bool reload;
 
-    public int itemCount;
+    public int unit_count;
     void Start()
     {
         Time.timeScale = 1;
         ability = GetComponent<Ability>();
         reload = false;
-        itemCount = 0;
+        unit_count = 0;
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
+        
         if (ability.hp <= 0 || ability.pain >= 100)
         {
             Time.timeScale = 0.25f;
         }
 
-        Xmove = Input.GetAxis("Horizontal");
-        Ymove = Input.GetAxis("Vertical");
-        Vector3 dir = new Vector3(Xmove, Ymove, 0) * ability.speed * Time.deltaTime;
-        transform.position = transform.TransformDirection(transform.position + dir);
-
+        Move();
+        Unit();
 
         if (Input.GetKey(KeyCode.Space) && !reload)
         {
             StartCoroutine(SummonBullet());
         }
+    }
+
+    void Move()
+    {
+        Xmove = Input.GetAxis("Horizontal");
+        Ymove = Input.GetAxis("Vertical");
+        Vector3 dir = new Vector3(Xmove, Ymove, 0) * ability.speed * Time.deltaTime;
+        transform.position = transform.TransformDirection(transform.position + dir);
+    }
+
+    void Unit()
+    {
+        Unit unitCp = unit.GetComponent<Unit>();
+
+        unit_txt.text = unit_count.ToString();
+
+        if (Input.GetKeyDown(KeyCode.F) && unit_count > 0 && unitCp.unitBullet != unitCp.bulletMax)
+        {
+            unit_count--;
+            unitCp.unitBullet = unitCp.bulletMax;
+            unit.SetActive(true);
+        }
+
+        if (unit)
+        {
+            unit_magazine.fillAmount = (float)unitCp.unitBullet / unitCp.bulletMax;
+        }
+        else return;
     }
 
     private void OnTriggerEnter(Collider collision)

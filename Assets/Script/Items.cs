@@ -48,7 +48,7 @@ public class Items : MonoBehaviour
             }
             if (type == items.Unit)
             {
-                other.GetComponent<Player>().itemCount++;
+                other.GetComponent<Player>().unit_count++;
             }
 
             Destroy(this.gameObject, 3.5f);

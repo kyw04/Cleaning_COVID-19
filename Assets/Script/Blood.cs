@@ -33,8 +33,7 @@ public class Blood : MonoBehaviour
         {
             ability.hp = 0;
         }
-
-        if (other.gameObject.tag == "Bullet")
+        else if (other.gameObject.tag == "Bullet")
         {
             ability.hp--;
             ability.speed /= 2;

@@ -30,7 +30,7 @@ public class Bullet : MonoBehaviour
         {
             GetComponentInChildren<ParticleSystem>().Play();
             gameObject.layer = 8;
-            GetComponent<Renderer>().enabled = false;
+            GetComponentInChildren<Renderer>().enabled = false;
             Destroy(this.gameObject, 1);
         }
 
