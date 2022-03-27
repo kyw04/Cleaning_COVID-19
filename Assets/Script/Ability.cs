@@ -15,7 +15,7 @@ public class Ability : MonoBehaviour
     public int WeaponLevel = 0;
     private int Weapon = 0;
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (maxHp < hp)
             hp = maxHp;

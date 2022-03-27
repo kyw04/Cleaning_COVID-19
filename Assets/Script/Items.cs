@@ -44,7 +44,7 @@ public class Items : MonoBehaviour
             }
             if (type == items.Boom)
             {
-
+                StartCoroutine(Boom());
             }
             if (type == items.Unit)
             {
@@ -54,6 +54,22 @@ public class Items : MonoBehaviour
             Destroy(this.gameObject, 3.5f);
             if (transform.GetChild(0))
                 transform.GetChild(0).gameObject.SetActive(false);
+        }
+    }
+
+    IEnumerator Boom()
+    {
+        GameObject[] temp = GameObject.FindGameObjectsWithTag("Monster");
+
+        if (temp != null)
+        {
+            Time.timeScale = 0.25f;
+            for (int i = 0; i < temp.Length; i++)
+            {
+                temp[i].GetComponent<Ability>().hp = 0;
+                yield return new WaitForSeconds(0.05f);
+            }
+            Time.timeScale = 1;
         }
     }
 }

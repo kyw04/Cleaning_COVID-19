@@ -6,33 +6,53 @@ public class Spawn : MonoBehaviour
 {
     public GameObject[] entity;
     public float[] time;
-    private Ability player_ability;
-    private int spawn = 0;
+    public GameObject[] wave;
+    private float play_time;
 
     void Start()
     {
-        player_ability = GameObject.Find("Player").GetComponent<Ability>();
-        StartCoroutine("Spawner", 0);
-        StartCoroutine("Spawner", 2);
+        play_time = 0;
+        
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-            StopCoroutine("Spawner");
-        if (Input.GetKeyDown(KeyCode.X))
-            StartCoroutine("Spawner", 1);
+        play_time += Time.deltaTime;
 
-        if (player_ability.score >= 150 && spawn == 0)
+        //if (Input.GetKeyDown(KeyCode.E))
+        //    StopCoroutine("SpawnEntity");
+        //if (Input.GetKeyDown(KeyCode.X))
+        //    StartCoroutine("SpawnEntity", 1);
+
+        switch ((int)play_time)
         {
-            spawn++;
-            Instantiate(entity[1], RandomPos(), transform.rotation);
-            StartCoroutine("Spawner", 3);
+            case 3:
+                play_time++;
+                StartCoroutine("SpawnEntity", 0);
+                StartCoroutine("SpawnEntity", 2);
+                break;
+            case 40:
+                play_time++;
+                StopCoroutine("SpawnEntity");
+                break;
+            case 45:
+                play_time++;
+                Instantiate(wave[0], transform.position, transform.rotation);
+                break;
+            case 53:
+                play_time++;
+                StartCoroutine("SpawnEntity", 0);
+                StartCoroutine("SpawnEntity", 2);
+                break;
+            case 75:
+                play_time++;
+                Instantiate(entity[1], RandomPos(), transform.rotation);
+                StartCoroutine("SpawnEntity", 3);
+                break;
         }
-
     }
 
-    IEnumerator Spawner(int index)
+    IEnumerator SpawnEntity(int index)
     {
         while (true)
         {
@@ -44,8 +64,8 @@ public class Spawn : MonoBehaviour
     Vector3 RandomPos()
     {
         Vector3 pos = GetComponent<BoxCollider>().bounds.size;
-        float randX = Random.Range((pos.x / 2) * -1, pos.x / 2);
-        float randY = Random.Range((pos.y / 2) * -1, pos.y / 2);
+        float randX = Random.Range(-(pos.x / 2), pos.x / 2);
+        float randY = Random.Range(-(pos.y / 2), pos.y / 2);
 
         return transform.position + new Vector3(randX, randY); 
     }

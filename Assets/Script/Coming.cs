@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Coming : MonoBehaviour
 {
+    public GameObject[] items;
+    public float item_percent;
     private Ability ability;
     private bool die;
     public bool random = false;
@@ -28,6 +30,12 @@ public class Coming : MonoBehaviour
                 GetComponentInChildren<ParticleSystem>().Play();
             if (GetComponent<MeshRenderer>())
                 GetComponent<MeshRenderer>().material.color = new Color32(95, 95, 95, 200);
+            if (gameObject.tag == "Monster" && item_percent > 0)
+            {
+                float rand = Random.Range(0, 100);
+                if (rand <= item_percent)
+                    Instantiate(items[Random.Range(0, items.Length)], transform.position, items[0].transform.rotation);
+            }
             if (gameObject.tag != "Item")
                 Destroy(this.gameObject, 1);
         }

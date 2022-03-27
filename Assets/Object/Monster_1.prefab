@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5750781963895504142}
   - component: {fileID: 5185025755737729208}
   - component: {fileID: 5185025755737729209}
+  - component: {fileID: 7055032193565415179}
   m_Layer: 7
   m_Name: Monster_1
   m_TagString: Monster
@@ -111,8 +112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 396d12b01c6a3814e8465affca2330b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 4
-  hp: 4
+  maxHp: 3
+  hp: 3
   pain: 100
   speed: 0.5
   damage: 10
@@ -132,9 +133,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726340bb23d6f3a409177b98588dd62c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items:
+  - {fileID: 7744792763743782031, guid: 22c053170917ce248a29f1ee481de235, type: 3}
+  - {fileID: 6159208342506409457, guid: 7e7b2082bf9ea6a43890b21978e035c0, type: 3}
+  - {fileID: 7837096835440101293, guid: a051b107f0b4f294d874cb6a3c602094, type: 3}
+  - {fileID: 6617561653727062027, guid: 15ffb2957eb803f41b14bf7ad9753b68, type: 3}
+  - {fileID: 1154179878591473526, guid: a8b40a7f1e3203449addb40fcd2bf72c, type: 3}
+  - {fileID: 7903040532274703412, guid: 6759c5fb3fe08884c83023b2d2bef727, type: 3}
+  item_percent: 0.25
   random: 0
-  rand_min: 1
-  rand_max: 1.5
+  rand_min: 0
+  rand_max: 0
+--- !u!114 &7055032193565415179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185025755737729203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c34f8d412dbc810488f309799a946464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 4
+  bullet: {fileID: 0}
 --- !u!1 &5185025757186162346
 GameObject:
   m_ObjectHideFlags: 0

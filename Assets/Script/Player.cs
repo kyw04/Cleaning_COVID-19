@@ -106,7 +106,7 @@ public class Player : MonoBehaviour
     IEnumerator SummonBullet()
     {
         reload = true;
-        Instantiate(bullet, transform.position, transform.rotation);
+        Instantiate(bullet, transform.position + Vector3.up * 0.1f, transform.rotation);
         yield return new WaitForSeconds(ability.attack_speed);
         reload = false;
     }
