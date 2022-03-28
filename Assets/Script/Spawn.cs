@@ -19,10 +19,10 @@ public class Spawn : MonoBehaviour
     {
         play_time += Time.deltaTime;
 
-        //if (Input.GetKeyDown(KeyCode.E))
-        //    StopCoroutine("SpawnEntity");
-        //if (Input.GetKeyDown(KeyCode.X))
-        //    StartCoroutine("SpawnEntity", 1);
+        if (Input.GetKeyDown(KeyCode.E))
+            StopCoroutine("SpawnEntity");
+        if (Input.GetKeyDown(KeyCode.X))
+            StartCoroutine("SpawnEntity", 1);
 
         switch ((int)play_time)
         {
@@ -48,6 +48,10 @@ public class Spawn : MonoBehaviour
                 play_time++;
                 Instantiate(entity[1], RandomPos(), transform.rotation);
                 StartCoroutine("SpawnEntity", 3);
+                break;
+            case 135:
+                play_time++;
+                StartCoroutine("SpawnEntity", 4);
                 break;
         }
     }

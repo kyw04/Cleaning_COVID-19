@@ -4915,7 +4915,7 @@ MonoBehaviour:
   hp: 2
   pain: 0
   speed: 2
-  damage: 20
+  damage: 15
   attack_speed: 0.5
   score: 0
   maxWeaponLevel: 5
@@ -4932,6 +4932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726340bb23d6f3a409177b98588dd62c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items: []
+  item_percent: 0
   random: 1
   rand_min: 0.25
   rand_max: 0.75

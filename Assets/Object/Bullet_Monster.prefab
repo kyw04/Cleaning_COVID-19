@@ -4873,8 +4873,8 @@ GameObject:
   - component: {fileID: 4945842792746563898}
   - component: {fileID: 8290267394909845151}
   - component: {fileID: 6118145644835783253}
-  - component: {fileID: 7393110356846464224}
   - component: {fileID: -6810432325688359537}
+  - component: {fileID: 5474909367298746284}
   m_Layer: 7
   m_Name: Bullet_Monster
   m_TagString: Bullet
@@ -4947,20 +4947,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7393110356846464224
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5758126435674219392}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3932327745863282196, guid: 2bacda310f75f6f49a5730a662ed3e88, type: 3}
 --- !u!114 &-6810432325688359537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4975,3 +4961,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   damage: 0
+--- !u!135 &5474909367298746284
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5758126435674219392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.31082883
+  m_Center: {x: 0.0051554437, y: -0.0020621864, z: 0.0051554437}

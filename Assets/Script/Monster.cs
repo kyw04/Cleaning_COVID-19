@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    public enum Type { Monster_1, Monster_2, Monster_3, Monster_4, Nope }
+    public enum Type { Monster_1, Monster_2, Monster_3, Nope }
     public Type type;
     public GameObject bullet;
     private GameObject taget;
@@ -41,9 +41,6 @@ public class Monster : MonoBehaviour
             case Type.Monster_3:
                 monster_3();
                 break;
-            case Type.Monster_4:
-                monster_4();
-                break;
             case Type.Nope:
                 break;
         }
@@ -62,15 +59,19 @@ public class Monster : MonoBehaviour
 
     void monster_2()
     {
+        Vector3 distance = transform.position - GameObject.Find("Player").transform.position;
+        if (distance.x < 0)
+            distance.x *= -1;
+        if (distance.y < 0)
+            distance.y *= -1;
 
+        if (distance.x <= 0.4f && distance.y <= 0.4f)
+        {
+            transform.localScale = Vector3.one * 1.25f;
+        }
     }
 
     void monster_3()
-    {
-
-    }
-
-    void monster_4()
     {
 
     }
