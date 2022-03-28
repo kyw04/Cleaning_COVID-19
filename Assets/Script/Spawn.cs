@@ -7,12 +7,12 @@ public class Spawn : MonoBehaviour
     public GameObject[] entity;
     public float[] time;
     public GameObject[] wave;
+    public GameObject[] boss;
     private float play_time;
 
     void Start()
     {
         play_time = 0;
-        
     }
 
     void Update()
@@ -51,7 +51,13 @@ public class Spawn : MonoBehaviour
                 break;
             case 135:
                 play_time++;
+                Instantiate(entity[1], RandomPos(), transform.rotation);
                 StartCoroutine("SpawnEntity", 4);
+                break;
+            case 200:
+                play_time++;
+                StopCoroutine("SpawnEntity");
+                Instantiate(boss[0], RandomPos(), transform.rotation);
                 break;
         }
     }
