@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
         else if (gameObject.layer == 7)
             transform.position += transform.forward * speed * Time.deltaTime;
 
-        Destroy(this.gameObject, 5);
+        Destroy(this.gameObject, 10);
     }
 
     private void OnTriggerEnter(Collider collision)

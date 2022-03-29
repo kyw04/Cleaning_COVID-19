@@ -51,10 +51,10 @@ public class Monster : MonoBehaviour
         if (!reload && ability.hp > 0)
         {
             reload = true;
-            StartCoroutine("spawn_bullet");
+            StartCoroutine("monster1_bullet");
         }
         if (ability.hp <= 0)
-            StopCoroutine("spawn_bullet");
+            StopCoroutine("monster1_bullet");
     }
 
     void monster_2()
@@ -73,10 +73,31 @@ public class Monster : MonoBehaviour
 
     void monster_3()
     {
-
+        if (!reload && ability.hp > 0)
+        {
+            reload = true;
+            StartCoroutine("monster2_bullet");
+        }
+        if (ability.hp <= 0)
+            StopCoroutine("monster2_bullet");
     }
 
-    IEnumerator spawn_bullet()
+    IEnumerator monster2_bullet()
+    {
+        float rotate = 0; 
+        for (int i = 0; i < 10; i++)
+        {
+            yield return new WaitForSeconds(0.1f);
+            GameObject newBullet = Instantiate(bullet, transform.position, Quaternion.Euler(rotate, -90, 0));
+            newBullet.GetComponent<Bullet>().damage = ability.damage;
+            rotate += 36;
+        }
+
+        yield return new WaitForSeconds(ability.attack_speed);
+        reload = false;
+    }
+
+    IEnumerator monster1_bullet()
     {
         yield return new WaitForSeconds(ability.attack_speed);
         reload = false;
