@@ -10,6 +10,7 @@ TagManager:
   - Blood
   - Item
   - Leukocyte
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Item
   - Leukocyte
   - Boom
-  - 
+  - Boss
   - 
   - 
   - 

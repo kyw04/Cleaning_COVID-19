@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     public float speed = 1;
     public float damage;
 
-    private Ability player_ability;
+    public Ability player_ability;
 
     void Start()
     {

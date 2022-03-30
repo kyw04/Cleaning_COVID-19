@@ -82,21 +82,6 @@ public class Monster : MonoBehaviour
             StopCoroutine("monster2_bullet");
     }
 
-    IEnumerator monster2_bullet()
-    {
-        float rotate = 0; 
-        for (int i = 0; i < 10; i++)
-        {
-            yield return new WaitForSeconds(0.1f);
-            GameObject newBullet = Instantiate(bullet, transform.position, Quaternion.Euler(rotate, -90, 0));
-            newBullet.GetComponent<Bullet>().damage = ability.damage;
-            rotate += 36;
-        }
-
-        yield return new WaitForSeconds(ability.attack_speed);
-        reload = false;
-    }
-
     IEnumerator monster1_bullet()
     {
         yield return new WaitForSeconds(ability.attack_speed);
@@ -104,5 +89,21 @@ public class Monster : MonoBehaviour
         GameObject newBullet = Instantiate(bullet, transform.position, Quaternion.Euler(0, 0, 0));
         newBullet.transform.LookAt(taget.transform);
         newBullet.GetComponent<Bullet>().damage = ability.damage;
+    }
+
+    IEnumerator monster2_bullet()
+    {
+        float rotate = 0;
+        for (int i = 0; i < 10; i++)
+        {
+            yield return new WaitForSeconds(0.1f);
+            GameObject newBullet = Instantiate(bullet, transform.position, Quaternion.Euler(rotate, -90, 0));
+            newBullet.GetComponent<Bullet>().damage = ability.damage;
+            newBullet.GetComponent<MeshRenderer>().material.color = Color.red;
+            rotate += 36;
+        }
+
+        yield return new WaitForSeconds(ability.attack_speed);
+        reload = false;
     }
 }

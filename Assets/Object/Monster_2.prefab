@@ -118,7 +118,7 @@ MonoBehaviour:
   speed: 0.4
   damage: 5
   attack_speed: 1
-  score: 0
+  score: 10
   maxWeaponLevel: 5
   WeaponLevel: 0
 --- !u!114 &4020734834331117114
