@@ -27,11 +27,9 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
-        
+
         if (ability.hp <= 0 || ability.pain >= 100)
-        {
-            Time.timeScale = 0.25f;
-        }
+            StartCoroutine(Die());
 
         Move();
         Unit();
@@ -87,6 +85,14 @@ public class Player : MonoBehaviour
                 StopCoroutine("Invincible");
                 GetComponent<MeshRenderer>().material.color = new Color32(0, 0, 0, 255);
             }
+    }
+
+    IEnumerator Die()
+    {
+        PlayerPrefs.SetInt("PlayerScore", ability.score);
+        Time.timeScale = 0.25f;
+        yield return new WaitForSeconds(0.25f);
+        SceneManager.LoadScene(2);
     }
 
     public IEnumerator Invincible()
