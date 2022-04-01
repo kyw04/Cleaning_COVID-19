@@ -11,19 +11,21 @@ public class Player : MonoBehaviour
     public Image unit_magazine;
     public Text unit_txt;
     private Ability ability;
+    private Spawn spawn;
     private float Xmove;
     private float Ymove;
     private bool reload;
-    private bool starting;
+    public bool starting;
 
-    public int unit_count;
-    void Start()
+    public int unit_count = 0;
+    public void Start()
     {
         Time.timeScale = 1;
+        spawn = GameObject.Find("Spawn").GetComponent<Spawn>();
         ability = GetComponent<Ability>();
         reload = false;
         starting = false;
-        unit_count = 0;
+        ability.pain = 10 * spawn.level;
         StartCoroutine(start());
     }
 

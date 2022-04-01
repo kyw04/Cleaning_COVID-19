@@ -25,7 +25,6 @@ public class Boss : MonoBehaviour
     void Start()
     {
         background_2 = GameObject.Find("Background_2");
-        background_2.SetActive(false);
         image = GameObject.Find("Black_Panel").GetComponent<Image>();
         rotate = new Vector3(25, -25, 25);
         player = GameObject.Find("Player");
@@ -103,11 +102,17 @@ public class Boss : MonoBehaviour
             Debug.Log(i);
             Debug.Log(image.color.a);
         }
-
-        background_2.SetActive(true);
-        yield return new WaitForSeconds(10f);
-        if (spawn.level == 3)
+         if (spawn.level == 3)
             SceneManager.LoadScene(2);
+        background_2.transform.position -= new Vector3(0, 0, 0.2f);
+        player.transform.position = new Vector3(0, -0.5f, 0);
+        player.GetComponent<Player>().Start();
+
+        for (int i = 0; i <= 255; i++)
+        {
+            yield return new WaitForSeconds(0.001f);
+            image.color -= new Color32(0, 0, 0, 1);
+        }
         isChange = false;
     }
     IEnumerator skill()
