@@ -4966,6 +4966,8 @@ MonoBehaviour:
   - {fileID: 5185025755737729203, guid: 6cfb9bcbf4cad654fb5fef5163921292, type: 3}
   - {fileID: 619980486212013040, guid: f8c603cbd24081c42bc5e61b9d574479, type: 3}
   - {fileID: 1178193474712462720, guid: 18d0e0046c3610e40ab330b6fc8549e9, type: 3}
+  boom: {fileID: 1154179878591473526, guid: a8b40a7f1e3203449addb40fcd2bf72c, type: 3}
+  spawn: {fileID: 0}
 --- !u!135 &919132149081570790
 SphereCollider:
   m_ObjectHideFlags: 0

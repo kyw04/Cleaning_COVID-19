@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     private float Xmove;
     private float Ymove;
     private bool reload;
+    private bool starting;
 
     public int unit_count;
     void Start()
@@ -21,7 +22,9 @@ public class Player : MonoBehaviour
         Time.timeScale = 1;
         ability = GetComponent<Ability>();
         reload = false;
+        starting = false;
         unit_count = 0;
+        StartCoroutine(start());
     }
 
     void Update()
@@ -30,14 +33,18 @@ public class Player : MonoBehaviour
 
         if (ability.hp <= 0 || ability.pain >= 100)
             StartCoroutine(Die());
-
-        Move();
         Unit();
+        if (starting)
+        { 
+            Move();
 
-        if (Input.GetKey(KeyCode.Space) && !reload)
-        {
-            StartCoroutine(SummonBullet());
+            if (Input.GetKey(KeyCode.Space) && !reload)
+            {
+                StartCoroutine(SummonBullet());
+            }
         }
+        else
+            transform.position += Vector3.up * 1.5f * Time.deltaTime;
     }
 
     void Move()
@@ -95,6 +102,11 @@ public class Player : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
+    IEnumerator start()
+    {
+        yield return new WaitForSeconds(0.5f);
+        starting = true;
+    }
     public IEnumerator Invincible()
     {
         gameObject.layer = 9;

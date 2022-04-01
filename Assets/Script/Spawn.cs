@@ -8,57 +8,91 @@ public class Spawn : MonoBehaviour
     public float[] time;
     public GameObject[] wave;
     public GameObject[] boss;
-    private float play_time;
+    public float _time;
+    public int level;
 
     void Start()
     {
-        play_time = 0;
+        level = 1;
+        _time = 0;
     }
 
     void Update()
     {
-        play_time += Time.deltaTime;
+        _time += Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.E))
             StopCoroutine("SpawnEntity");
         if (Input.GetKeyDown(KeyCode.X))
             StartCoroutine("SpawnEntity", 1);
 
-        switch ((int)play_time)
+        if (level == 1)
+        switch ((int)_time)
         {
             case 3:
-                play_time++;
+                _time++;
                 StartCoroutine("SpawnEntity", 0);
                 StartCoroutine("SpawnEntity", 2);
                 break;
             case 40:
-                play_time++;
+                _time++;
                 StopCoroutine("SpawnEntity");
                 break;
             case 45:
-                play_time++;
+                 _time++;
+                Instantiate(entity[1], RandomPos(), transform.rotation);
                 Instantiate(wave[0], transform.position, transform.rotation);
                 break;
             case 53:
-                play_time++;
+                 _time++;
                 StartCoroutine("SpawnEntity", 0);
                 StartCoroutine("SpawnEntity", 2);
                 break;
             case 75:
-                play_time++;
+                 _time++;
                 Instantiate(entity[1], RandomPos(), transform.rotation);
                 StartCoroutine("SpawnEntity", 3);
                 break;
             case 135:
-                play_time++;
+                 _time++;
                 Instantiate(entity[1], RandomPos(), transform.rotation);
                 StartCoroutine("SpawnEntity", 4);
                 break;
             case 200:
-                play_time++;
+                _time++;
                 StopCoroutine("SpawnEntity");
                 Instantiate(boss[0], RandomPos(), transform.rotation);
                 break;
+        }
+        if (level == 2)
+        {
+            switch ((int)_time)
+            {
+                case 3:
+                    _time++;
+                    Instantiate(entity[1], RandomPos(), transform.rotation);
+                    Instantiate(entity[1], RandomPos(), transform.rotation);
+                    StartCoroutine("SpawnEntity", 0);
+                    StartCoroutine("SpawnEntity", 2);
+                    StartCoroutine("SpawnEntity", 3);
+                    StartCoroutine("SpawnEntity", 4);
+                    break;
+                case 50:
+                    Instantiate(entity[1], RandomPos(), transform.rotation);
+                    break;
+                case 100:
+                    _time++;
+                    StartCoroutine("SpawnEntity", 5);
+                    break;
+                case 150:
+                    _time++;
+                    Instantiate(boss[0], RandomPos(), transform.rotation);
+                    StopCoroutine("SpawnEntity");
+                    break;
+                case 155:
+                    Instantiate(boss[0], RandomPos(), transform.rotation);
+                    break;
+            }
         }
     }
 

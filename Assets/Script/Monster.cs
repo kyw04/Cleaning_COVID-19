@@ -11,17 +11,21 @@ public class Monster : MonoBehaviour
     private Ability ability;
     private bool reload;
     private Vector3 rotation_speed;
+    private Spawn spawn;
 
     void Start()
     {
         reload = false;
         taget = GameObject.Find("Player");
         ability = GetComponent<Ability>();
+        spawn = GameObject.Find("Spawn").GetComponent<Spawn>();
 
         float rand = Random.Range(-2, 2);
         if (rand == 0)
             rand = 1;
-
+        ability.speed *= spawn.level;
+        ability.damage *= spawn.level;
+        ability.hp *= spawn.level;
         rotation_speed = Vector3.one * rand * ability.speed * 50;
     }
 

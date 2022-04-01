@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
@@ -9,17 +11,26 @@ public class Boss : MonoBehaviour
     public float speed = 0.5f;
     public float reload_speed = 3;
     public GameObject[] monsters;
+    public GameObject boom;
+    private GameObject background_2;
+    private Image image;
+    private Spawn spawn;
     private GameObject player;
     private Ability player_ability;
     Vector3 rotate;
     private bool isDie = false;
     private int skill_number;
+    private bool isChange = false;
 
     void Start()
     {
+        background_2 = GameObject.Find("Background_2");
+        background_2.SetActive(false);
+        image = GameObject.Find("Black_Panel").GetComponent<Image>();
         rotate = new Vector3(25, -25, 25);
         player = GameObject.Find("Player");
         player_ability = player.GetComponent<Ability>();
+        spawn = GameObject.Find("Spawn").GetComponent<Spawn>();
         StartCoroutine("skill");
     }
 
@@ -44,8 +55,13 @@ public class Boss : MonoBehaviour
         gameObject.layer = 8;
         Destroy(this.gameObject, 2);
         Score.instance.AddScore(150);
+        spawn.level++;
+        spawn._time = 0;
         GetComponent<MeshRenderer>().material.color = Color.gray;
         GetComponentInChildren<ParticleSystem>().Play();
+        Instantiate(boom, player.transform.position, player.transform.rotation);
+        if (!isChange)
+            StartCoroutine(change_scene());
     }
 
     void skill_1()
@@ -77,6 +93,23 @@ public class Boss : MonoBehaviour
         }
     }
 
+    IEnumerator change_scene()
+    {
+        isChange = true;
+        for (int i = 0; i <= 255; i++)
+        {
+            yield return new WaitForSeconds(0.001f);
+            image.color += new Color32(0, 0, 0, 1);
+            Debug.Log(i);
+            Debug.Log(image.color.a);
+        }
+
+        background_2.SetActive(true);
+        yield return new WaitForSeconds(10f);
+        if (spawn.level == 3)
+            SceneManager.LoadScene(2);
+        isChange = false;
+    }
     IEnumerator skill()
     {
         yield return new WaitForSeconds(5);
