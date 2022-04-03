@@ -20,6 +20,11 @@ public class Button : MonoBehaviour
             transform.position += transform.up * 2 * Time.deltaTime;
     }
 
+    public void menu_click()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void start_click()
     {
         GameObject button =  EventSystem.current.currentSelectedGameObject;
