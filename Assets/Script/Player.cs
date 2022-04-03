@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     private Spawn spawn;
     private float Xmove;
     private float Ymove;
-    private bool reload;
+    public bool reload;
     public bool starting;
 
     public int unit_count = 0;
@@ -43,6 +43,8 @@ public class Player : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && !reload)
             {
                 StartCoroutine(SummonBullet());
+                if (unit.GetComponent<Unit>().unitBullet > 0)
+                    unit.GetComponent<Unit>().SummonBullet();
             }
         }
         else
@@ -79,10 +81,10 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Blood")
+        if (collision.tag == "Monster" || collision.tag == "Blood" || collision.tag == "Bullet")
             StartCoroutine("Invincible");
 
-        if (collision.gameObject.tag == "Monster")
+        if (collision.tag == "Monster")
         {
             collision.gameObject.layer = 8;
             collision.GetComponent<Ability>().hp = 0;

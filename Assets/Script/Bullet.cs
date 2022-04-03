@@ -26,21 +26,23 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag != "Item" && collision.gameObject.tag != "Bullet")
+        if (collision.tag != "Item" && collision.tag != "Bullet")
         {
-            GetComponentInChildren<ParticleSystem>().Play();
+            if (collision.tag != "Wall")
+                GetComponentInChildren<ParticleSystem>().Play();
             gameObject.layer = 8;
             GetComponentInChildren<Renderer>().enabled = false;
             Destroy(this.gameObject, 1);
         }
 
-        if (collision.gameObject.tag == "Monster")
+        if (collision.tag == "Monster")
         {
             collision.GetComponent<Ability>().hp -= player_ability.damage;
         }
 
-        if (collision.gameObject.tag == "Player")
+        if (collision.tag == "Player")
         {
+            
             player_ability.hp -= damage;
         }
     }

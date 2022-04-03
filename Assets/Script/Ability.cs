@@ -28,12 +28,12 @@ public class Ability : MonoBehaviour
         {
             for (; Weapon < WeaponLevel; Weapon++)
             {
-                damage *= 2f;
+                damage *= 1.25f;
                 attack_speed /= 1.25f;
             }
             for (; Weapon > WeaponLevel; Weapon--)
             {
-                damage /= 2f;
+                damage /= 1.25f;
                 attack_speed *= 1.25f;
             }
         }

@@ -23,9 +23,12 @@ public class Monster : MonoBehaviour
         float rand = Random.Range(-2, 2);
         if (rand == 0)
             rand = 1;
-        ability.speed *= spawn.level - 0.75f;
-        ability.damage *= spawn.level;
-        ability.hp *= spawn.level;
+        if (spawn.level != 1)
+        {
+            ability.speed *= spawn.level - 0.75f;
+            ability.damage *= spawn.level;
+            ability.hp *= spawn.level;
+        }
         rotation_speed = Vector3.one * rand * ability.speed * 50;
     }
 

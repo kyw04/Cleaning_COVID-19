@@ -37,10 +37,10 @@ public class Spawn : MonoBehaviour
             case 40:
                 _time++;
                 StopCoroutine("SpawnEntity");
+                Instantiate(entity[1], RandomPos(), transform.rotation);
                 break;
             case 45:
                  _time++;
-                Instantiate(entity[1], RandomPos(), transform.rotation);
                 Instantiate(wave[0], transform.position, transform.rotation);
                 break;
             case 53:
@@ -61,7 +61,7 @@ public class Spawn : MonoBehaviour
             case 200:
                 _time++;
                 StopCoroutine("SpawnEntity");
-                Instantiate(boss[0], RandomPos(), transform.rotation);
+                Instantiate(boss[0], transform.position, transform.rotation);
                 break;
         }
         if (level == 2)
@@ -78,6 +78,7 @@ public class Spawn : MonoBehaviour
                     StartCoroutine("SpawnEntity", 4);
                     break;
                 case 50:
+                    _time++;
                     Instantiate(entity[1], RandomPos(), transform.rotation);
                     break;
                 case 100:
@@ -86,11 +87,13 @@ public class Spawn : MonoBehaviour
                     break;
                 case 150:
                     _time++;
-                    Instantiate(boss[0], RandomPos(), transform.rotation);
+                    Instantiate(entity[1], RandomPos(), transform.rotation);
                     StopCoroutine("SpawnEntity");
                     break;
                 case 155:
-                    Instantiate(boss[0], RandomPos(), transform.rotation);
+                    _time++;
+                    Instantiate(boss[1], transform.position, transform.rotation);
+                    boss[1].GetComponent<MeshRenderer>().material.color = new Color32(255, 255, 0, 255);
                     break;
             }
         }
