@@ -109,11 +109,11 @@ public class Boss : MonoBehaviour
     IEnumerator change_scene()
     {
         isChange = true;
-        while (image.color.a <= 1)
-        {
-            yield return new WaitForSeconds(0.001f);
-            image.color += new Color32(0, 0, 0, 1);
-        }
+        //while (image.color.a <= 1)
+        //{
+        //    yield return new WaitForSeconds(0.001f);
+        //    image.color += new Color32(0, 0, 0, 1);
+        //}
         
         yield return new WaitForSeconds(1.5f);
 
@@ -123,11 +123,11 @@ public class Boss : MonoBehaviour
         player.transform.position = new Vector3(0, -0.5f, 0);
         gameObject.GetComponent<MeshRenderer>().enabled = false;
 
-        while (image.color.a >= 0)
-        {
-            yield return new WaitForSeconds(0.001f);
-            image.color -= new Color32(0, 0, 0, 1);
-       }
+       // while (image.color.a >= 0)
+       // {
+       //     yield return new WaitForSeconds(0.001f);
+       //     image.color -= new Color32(0, 0, 0, 1);
+       //}
         player.GetComponent<Player>().Start();
         isChange = false;
     }

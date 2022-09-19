@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     private float Ymove;
     public bool reload;
     public bool starting;
+    private int stop = 0;
 
     public int unit_count = 0;
     public void Start()
@@ -31,7 +32,12 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = stop;
+            stop ^= 1;
+            //Application.Quit();
+        }
 
         if (ability.hp <= 0 || ability.pain >= 100)
             StartCoroutine(Die());
