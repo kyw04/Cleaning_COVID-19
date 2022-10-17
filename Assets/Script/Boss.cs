@@ -118,7 +118,10 @@ public class Boss : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 
         if (spawn.GetComponent<Spawn>().level == 3)
+        {
+            PlayerPrefs.SetInt("PlayerScore", player.GetComponent<Ability>().score);
             SceneManager.LoadScene(2);
+        }
         background_2.transform.position -= new Vector3(0, 0, 0.2f);
         player.transform.position = new Vector3(0, -0.5f, 0);
         gameObject.GetComponent<MeshRenderer>().enabled = false;

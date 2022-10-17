@@ -21,10 +21,10 @@ public class Spawn : MonoBehaviour
     {
         _time += Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.E))
-            StopCoroutine("SpawnEntity");
-        if (Input.GetKeyDown(KeyCode.X))
-            StartCoroutine("SpawnEntity", 1);
+        //if (Input.GetKeyDown(KeyCode.E))
+        //    StopCoroutine("SpawnEntity");
+        //if (Input.GetKeyDown(KeyCode.X))
+        //    StartCoroutine("SpawnEntity", 1);
 
         if (level == 1)
         switch ((int)_time)

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    public GameObject pause;
     public GameObject bullet;
     public GameObject unit;
     public Image unit_magazine;
@@ -35,6 +36,10 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Time.timeScale = stop;
+            if (stop == 1)
+                pause.SetActive(false);
+            else
+                pause.SetActive(true);
             stop ^= 1;
             //Application.Quit();
         }
@@ -49,8 +54,6 @@ public class Player : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && !reload)
             {
                 StartCoroutine(SummonBullet());
-                if (unit.GetComponent<Unit>().unitBullet > 0)
-                    unit.GetComponent<Unit>().SummonBullet();
             }
         }
         else
@@ -135,6 +138,8 @@ public class Player : MonoBehaviour
     {
         reload = true;
         Instantiate(bullet, transform.position + Vector3.up * 0.1f, transform.rotation);
+        if (unit.GetComponent<Unit>().unitBullet > 0)
+            unit.GetComponent<Unit>().SummonBullet();
         yield return new WaitForSeconds(ability.attack_speed);
         reload = false;
     }

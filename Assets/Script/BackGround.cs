@@ -6,10 +6,6 @@ public class BackGround : MonoBehaviour
 {
     public Vector2 offset;
     public float speed = 0.1f;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {

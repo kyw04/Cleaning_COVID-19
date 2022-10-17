@@ -31,10 +31,10 @@ public class Rank : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            Application.Quit();
-        if (Input.GetKeyDown(KeyCode.K))
-            PlayerPrefs.DeleteAll();
+        //if (Input.GetKeyDown(KeyCode.Escape))
+        //    Application.Quit();
+        //if (Input.GetKeyDown(KeyCode.K))
+        //    PlayerPrefs.DeleteAll();
         for (int i = 0; i < n; i++)
         {
             if (scores[i] != null)
